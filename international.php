@@ -216,7 +216,7 @@
 
 
          <section class="tp-about-campus-area grey-bg p-relative pt-50 pb-50"
-            style="background:url('assets/img/cta/cta-7-bg.jpg');border-radius:40px">
+            style="background:url('assets/img/cta/cta-7-bg.jpg');border-radius:0px 0px 40px 40px">
             <div class="tp-about-campus-shape">
                <div class="shape-1">
                   <img src="assets/img/campus/campuses-shape-1.jpg" alt="">
@@ -515,10 +515,10 @@
                                        src="assets/img/unlerline/course-2-svg-1.svg" alt=""></span>
                               </h3>
                               <p>These international collaborations have profoundly impacted the Karmadevi Group of
-                                 Institutions in the following ways:        
-                                                             
-                                 </p>
-                              
+                                 Institutions in the following ways:
+
+                              </p>
+
                            </div>
                         </div>
                      </div>
@@ -528,90 +528,100 @@
          </section>
       </div>
       <style>
-         .tp-pricing-5-item{
+         .tp-pricing-5-item {
             background-color: white;
-            min-height:450px;
+            min-height: 450px;
          }
-         .tp-membership-area{
+
+         .tp-membership-area {
             background: url("assets/img/cta/cta-7-bg.jpg");
          }
       </style>
       <section class="tp-membership-area pt-60 pb-60">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-4 col-md-6">
-                     <div class="tp-pricing-5-item mb-40 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="tp-pricing-5-head tp-pricing-inner-head">
-                           <div class="tp-pricing-5-head-text">
-                              <h4 class="tp-pricing-5-head-title" style="font-weight:900;font-size: 30px;">Empowering Educators</h4>
-                              
-                           </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-6">
+                  <div class="tp-pricing-5-item mb-40 wow fadeInUp" data-wow-delay=".3s">
+                     <div class="tp-pricing-5-head tp-pricing-inner-head">
+                        <div class="tp-pricing-5-head-text">
+                           <h4 class="tp-pricing-5-head-title" style="font-weight:900;font-size: 30px;">Empowering
+                              Educators</h4>
 
                         </div>
-                        <div class="tp-pricing-5-list">
-                           <p>
+
+                     </div>
+                     <div class="tp-pricing-5-list">
+                        <p>
                            Teachers gain invaluable insights into innovative teaching
-                                 methods and communication strategies, allowing them to enhance their lesson delivery
-                                 and better engage students.
+                           methods and communication strategies, allowing them to enhance their lesson delivery
+                           and better engage students.
 
-                           </p>
-                        </div>
-                        
+                        </p>
                      </div>
+
                   </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="tp-pricing-5-item mb-40 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="tp-pricing-5-head tp-pricing-inner-head">
-                           <div class="tp-pricing-5-head-text">
-                              <h4 class="tp-pricing-5-head-title" style="font-weight:900;font-size: 30px;">Student Growth and Global Perspective</h4>
-                              
-                           </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="tp-pricing-5-item mb-40 wow fadeInUp" data-wow-delay=".3s">
+                     <div class="tp-pricing-5-head tp-pricing-inner-head">
+                        <div class="tp-pricing-5-head-text">
+                           <h4 class="tp-pricing-5-head-title" style="font-weight:900;font-size: 30px;">Student Growth
+                              and Global Perspective</h4>
 
                         </div>
-                        <div class="tp-pricing-5-list">
-                           <p>
+
+                     </div>
+                     <div class="tp-pricing-5-list">
+                        <p>
                            Students are exposed to new learning paradigms
-                                 that emphasize critical thinking, creativity, and global awareness. They develop skills
-                                 that make them more competitive in both local and international contexts.
+                           that emphasize critical thinking, creativity, and global awareness. They develop skills
+                           that make them more competitive in both local and international contexts.
 
-                           </p>
-                        </div>
-                        
+                        </p>
                      </div>
+
                   </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="tp-pricing-5-item mb-40 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="tp-pricing-5-head tp-pricing-inner-head">
-                           <div class="tp-pricing-5-head-text">
-                              <h4 class="tp-pricing-5-head-title" style="font-weight:900;font-size: 30px;">Bridging the <br>Gap</h4>
-                              
-                           </div>
+               </div>
+               <div class="col-lg-4 col-md-6">
+                  <div class="tp-pricing-5-item mb-40 wow fadeInUp" data-wow-delay=".3s">
+                     <div class="tp-pricing-5-head tp-pricing-inner-head">
+                        <div class="tp-pricing-5-head-text">
+                           <h4 class="tp-pricing-5-head-title" style="font-weight:900;font-size: 30px;">Bridging the
+                              <br>Gap
+                           </h4>
 
                         </div>
-                        <div class="tp-pricing-5-list">
-                           <p>
-                           These interactions bridge the educational divide between rural India
-                                 and the world's leading academic institutions, ensuring that students in Basti have
-                                 access to quality education on par with global standards.
 
-                           </p>
-                        </div>
-                        
                      </div>
+                     <div class="tp-pricing-5-list">
+                        <p>
+                           These interactions bridge the educational divide between rural India
+                           and the world's leading academic institutions, ensuring that students in Basti have
+                           access to quality education on par with global standards.
+
+                        </p>
+                     </div>
+
                   </div>
                </div>
             </div>
-         </section>
+         </div>
+      </section>
       <!-- course details area end -->
       <style>
-         #reviews{
-            background:url(assets/img/cta/cta-7-bg.jpg);
+         #reviews {
+            background: url(assets/img/cta/cta-7-bg.jpg);
          }
+
          #reviews .tp-live-7-ptb .container .row .col-lg-12 .tp-live-7-item {
             background: linear-gradient(to right, #A1FFCE, #FAFFD1);
 
             background-size: 200% 200%;
             animation: gradientAnimation 3s ease infinite;
+         }
+
+         .tp-pricing-5-head.tp-pricing-inner-head {
+            min-height: 180px;
          }
 
          #community .tp-live-7-ptb .container .row .col-lg-12 .tp-live-7-item {
@@ -644,19 +654,24 @@
                               </div>
                            </div>
                            <div class="tp-live-7-item-content">
-                              <span class="tp-live-7-subtitle">Get Started</span>
-                              <h3 class="tp-live-7-title tp-section-3-title color-9">Enjoy Our <br>
-                                 <span>Companionship <img class="tp-underline-shape-6 wow bounceIn"
-                                       data-wow-duration="1.5s" data-wow-delay=".4s"
-                                       src="assets/img/unlerline/course-2-svg-1.svg" alt=""></span>
+
+                              <h3 class="tp-live-7-title tp-section-3-title color-9">A Future-Focused<br>
+                                 <span> Vision <img class="tp-underline-shape-6 wow bounceIn" data-wow-duration="1.5s"
+                                       data-wow-delay=".4s" src="assets/img/unlerline/course-2-svg-1.svg" alt=""></span>
                               </h3>
-                              <p>Sneek peek into what has in storefor you on our online <br>
-                                 teaching and mentoring portal. </p>
-                              <a href="#">Download free guidebook <span><svg xmlns="http://www.w3.org/2000/svg"
-                                       width="12" height="12" viewBox="0 0 12 12" fill="none">
-                                       <path d="M1 6H11M11 6L6 1M11 6L6 11" stroke="#5956E9" stroke-width="2"
-                                          stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg></span></a>
+                              <p style="background-color:rgba(255,255,255,0.7);padding:10px;border-radius:5px">The Karmadevi Group of Institutions continues to pursue partnerships that align with
+                                 its vision of holistic education and inclusive learning. By engaging with
+                                 world-renowned educators and experts, we aim to inspire our students and faculty to
+                                 push boundaries and explore new academic and professional possibilities. These
+                                 collaborations underscore our commitment to blending traditional education with modern
+                                 advancements, ensuring that our institution remains at the forefront of innovative
+                                 learning.
+
+                                 Through these international partnerships, the Karmadevi Group of Institutions is not
+                                 just preparing students for academic excellence but is nurturing them to become global
+                                 citizens equipped with the knowledge and skills needed for the future.
+                              </p>
+
                            </div>
                         </div>
                      </div>
@@ -682,19 +697,22 @@
                               </div>
                            </div>
                            <div class="tp-live-7-item-content">
-                              <span class="tp-live-7-subtitle">Get Started</span>
-                              <h3 class="tp-live-7-title tp-section-3-title color-9">Enjoy Our <br>
-                                 <span>Companionship <img class="tp-underline-shape-6 wow bounceIn"
-                                       data-wow-duration="1.5s" data-wow-delay=".4s"
-                                       src="assets/img/unlerline/course-2-svg-1.svg" alt=""></span>
+
+                              <h3 class="tp-live-7-title tp-section-3-title color-9">Community Engagement and <br>
+                                 <span>Legacy <img class="tp-underline-shape-6 wow bounceIn" data-wow-duration="1.5s"
+                                       data-wow-delay=".4s" src="assets/img/unlerline/course-2-svg-1.svg" alt=""></span>
                               </h3>
-                              <p>Sneek peek into what has in storefor you on our online <br>
-                                 teaching and mentoring portal. </p>
-                              <a href="#">Download free guidebook <span><svg xmlns="http://www.w3.org/2000/svg"
-                                       width="12" height="12" viewBox="0 0 12 12" fill="none">
-                                       <path d="M1 6H11M11 6L6 1M11 6L6 11" stroke="#5956E9" stroke-width="2"
-                                          stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg></span></a>
+                              <p style="background-color:rgba(255,255,255,0.7);padding:10px;border-radius:5px">Our roots in Basti inspire us to not only educate but also contribute positively to the
+                                 local community. Through various outreach programs, workshops, and collaborative
+                                 events, we aim to strengthen the social fabric and drive progress in the region. The
+                                 Karmadevi Group of Institutions stands as a testament to Mr. O.N. Singh’s enduring
+                                 legacy—a vision where every child is given the chance to dream, learn, and achieve
+                                 without limits.
+                                 Join us on this journey of educational excellence and community upliftment. At
+                                 Karmadevi Group of Institutions, we’re not just shaping futures; we’re building a
+                                 stronger, more educated society for generations to come.
+                                 </p>
+
                            </div>
                         </div>
                      </div>
