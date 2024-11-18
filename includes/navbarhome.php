@@ -208,7 +208,7 @@
 
 
                               <li><a href="digitalzone.php">Karma Devi Digital Zone</a></li>
-                              <li><a href="blog-stories-sidebar.php">International Collaborations</a></li>
+                              <li><a href="international.php">International Collaborations</a></li>
                               <li><a href="blog-list.php">GB Welfare Trust</a></li>
                               <li><a href="radio.php">Omni Radio 90.0 FM</a></li>
 
