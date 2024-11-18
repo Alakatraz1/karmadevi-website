@@ -1336,18 +1336,18 @@
                <div class="col-lg-6">
                   <div class="tp-blog-item text-center mb-40 wow fadeInRight" data-wow-delay=".2s">
                      <div class="tp-blog-thumb fix">
-                        <a href="internatioinal.php">
+                        <a href="international.php">
                            <img src="assets/img/blog/blog-thumb-2.jpg" alt="blog-thumb">
                         </a>
                      </div>
                      <div class="tp-blog-content">
 
                         <h4 class="tp-blog-title">
-                           <a href="internatioinal.php">International Collaborations</a>
+                           <a href="international.php">International Collaborations</a>
                         </h4>
 
                         <div class="tp-blog-btn">
-                           <a href="internatioinal.php">
+                           <a href="international.php">
                               <span class="tp-blog-btn-bg blog-btn-bg"></span>
                               <span class="tp-blog-btn-border blog-btn-border"></span>
                               <span class="icon">
