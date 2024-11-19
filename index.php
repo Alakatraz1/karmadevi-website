@@ -34,6 +34,9 @@
       .tp-counter-item p{
          text-align:center !important;
       }
+      .tp-program-all p{
+         text-align: center !important;
+      }
    </style>
 </head>
 
@@ -914,7 +917,7 @@
                </div>
                <div class="col-12">
                   <div class="tp-program-all text-center">
-                     <p>Explore the most appropriate promgram.​​ <a href="university-program.php">View all Programs
+                     <p>Explore Karma Devi Group.​​ <a href="university-program.php">View more
                            <span>
                               <svg width="10" height="10" viewBox="0 0 12 12" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">

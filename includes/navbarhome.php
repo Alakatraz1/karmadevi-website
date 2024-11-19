@@ -154,7 +154,7 @@
                                        </div>
                                        <div class="col-xl-6">
                                           <div class="tp-megamenu-list">
-                                             <a href="university-about.php">History</a>
+                                             <a href="university-about.php#history">History</a>
                                              <a href="university-about.php#institution">Our Institutions</a>
 
                                           </div>

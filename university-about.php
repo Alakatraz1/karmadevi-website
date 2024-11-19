@@ -25,10 +25,11 @@
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
    <style>
-      p{
+      p {
          text-align: justify;
       }
-      .tp-counter-bg p{
+
+      .tp-counter-bg p {
          text-align: center;
       }
    </style>
@@ -477,7 +478,7 @@
                   </div>
                </div>
                <script>
-                  document.addEventListener('DOMContentLoaded', function() {
+                  document.addEventListener('DOMContentLoaded', function () {
                      const content = document.querySelector('.tp-course-details-2-text .content');
                      const showMoreButton = document.querySelector('.tp-course-details-2-text .show-more-button');
 
@@ -485,7 +486,7 @@
                         // Set initial max-height
                         content.style.maxHeight = '300px';
 
-                        showMoreButton.addEventListener('click', function() {
+                        showMoreButton.addEventListener('click', function () {
                            content.classList.toggle('expanded');
 
                            if (content.classList.contains('expanded')) {
@@ -660,9 +661,9 @@
          }
 
          .tp-our-mission-thumb {
-            
+
             filter: none;
-            
+
          }
       </style>
 
@@ -835,9 +836,25 @@
       </section>
       <!-- about year area end -->
       <style>
+         .tp-about-team-content {
+            position: absolute;
+            top: 10px;
+            left: 0px;
+            transition: all 0.3s 0s ease-out;
+            width: 100%;
+            height: 85px;
+         }
+
          .tp-about-team-content h4,
          .tp-about-team-content p {
+            text-decoration: underline;
+            padding:0px 10px;
             color: black;
+            background: rgba(255, 255, 255, 0.7);
+            width: 100%;
+         }
+         .tp-about-team-content p{
+            text-decoration: none;
          }
 
          .tp-about-team-thumb img {
@@ -869,7 +886,7 @@
                         <img src="assets/management/standing2/manager.jpg" alt="">
                      </div>
                      <div class="tp-about-team-content">
-                        <h4 class="tp-about-team-title"><a href="manager.php">Mrs. Neeta Singh</a></h4>
+                        <h4 class="tp-about-team-title"><a href="manager.php">Mrs. Neeta <br>Singh</a></h4>
                         <p>Manager</p>
                      </div>
                   </div>
@@ -880,7 +897,7 @@
                         <img src="assets/management/standing2/ceo.jpg" alt="">
                      </div>
                      <div class="tp-about-team-content">
-                        <h4 class="tp-about-team-title"><a href="ceo.php">Mrs. Anshu Singh Gautam</a></h4>
+                        <h4 class="tp-about-team-title"><a href="ceo.php">Mrs. Anshu Singh <br> Gautam</a></h4>
                         <p>CEO</p>
                      </div>
                   </div>
@@ -983,7 +1000,8 @@
                                  <a href="#">Omni International School, Sansarpur, Phutahiya, Basti, U.P.</a>
                               </div>
                               <div class="tp-about-campus-btn">
-                                 <a class="tp-btn" href="https://omniinternationalschool.com" target="_blank">Find out More</a>
+                                 <a class="tp-btn" href="https://omniinternationalschool.com" target="_blank">Find out
+                                    More</a>
                               </div>
                            </div>
                         </div>
@@ -1004,7 +1022,8 @@
                                  <a href="#">Praduman Singh Shikshan Sansthan, Sansarpur, Phutahia, Basti, U.P.</a>
                               </div>
                               <div class="tp-about-campus-btn">
-                                 <a class="tp-btn" href="https://pspharmacycollege.com" target="_blank">Find out More</a>
+                                 <a class="tp-btn" href="https://pspharmacycollege.com" target="_blank">Find out
+                                    More</a>
                               </div>
                            </div>
                         </div>
@@ -1088,7 +1107,9 @@
                                  <a href="#"> Karma Vocational Academy, Sansarpur Phutahiya, Basti, U.P</a>
                               </div>
                               <div class="tp-about-campus-btn">
-                                 <a class="tp-btn" href="https://www.facebook.com/p/Karma-Vocational-Academy-Basti-100064198055251/">Find out More</a>
+                                 <a class="tp-btn"
+                                    href="https://www.facebook.com/p/Karma-Vocational-Academy-Basti-100064198055251/">Find
+                                    out More</a>
                               </div>
                            </div>
                         </div>
