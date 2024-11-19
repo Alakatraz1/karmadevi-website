@@ -8,11 +8,11 @@
                      <a href="index.php"><img src="assets/gd/logo/karmatagl.png" alt="" style="width:70%"></a>
                   </div>
                   <div class="tp-footer-widget-content">
-                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisc ing elit.</p>
+                     <p>The Legacy of Excellence at <br> Karma Devi Group</p>
                   </div>
                   <div class="tp-footer-contact">
                      <span>Got Questions? Call us</span>
-                     <a href="tel:012345678">+91-6389086000</a>
+                     <a href="tel:6389086000">+91-6389086000</a>
                   </div>
                   <div class="tp-footer-contact-mail">
                      <a href="mailto:info@karmadevigroup.in">
@@ -46,15 +46,21 @@
             </div>
             <div class="col-xl-2 col-lg-2 col-sm-4">
                <div class="tp-footer-widget tp-footer-col-3 mb-30">
-                  <h4 class="tp-footer-widget-title mb-20">Quick links</h4>
+                  <h4 class="tp-footer-widget-title mb-20">Institutions</h4>
+                  
+
+
+
+
+
                   <div class="tp-footer-widget-link">
                      <ul>
-                        <li><a href="#">Students</a></li>
-                        <li><a href="#">Addmition</a></li>
-                        <li><a href="#">Faculty & Staffs</a></li>
-                        <li><a href="#">Media Relations</a></li>
-                        <li><a href="#">Alumni</a></li>
-                        <li><a href="#">Visit</a></li>
+                        <li><a href="https://omniinternationalschool.com"  target="_blank">Omni International School</a></li>
+                        <li><a href="https://pspharmacycollege.com" target="_blank">PS Pharmacy College</a></li>
+                        <li><a href="https://psn.ac.in" target="_blank">PS School of Nursing</a></li>
+                        <li><a href="https://dmssps.ac.in" target="_blank">DMS SPS College</a></li>
+                        
+                        <li><a href="https://ksm.ac.in" target="_blank">K.D. Smriti Mahavidyalaya</a></li>
                      </ul>
                   </div>
                </div>

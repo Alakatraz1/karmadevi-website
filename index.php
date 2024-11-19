@@ -24,6 +24,17 @@
    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <style>
+      p{
+         text-align: justify !important;
+      }
+      .tp-service-content p{
+         text-align: center !important;
+      }
+      .tp-counter-item p{
+         text-align:center !important;
+      }
+   </style>
 </head>
 
 <body>
@@ -439,7 +450,7 @@
                         </div>
                      </div>
                      <div class="tp-service-content">
-                        <p>We have students coming from different backgrounds,cultures, & nationalities as well.</p>
+                        <p>We nurture a diverse community, fostering inclusivity and respect for different backgrounds, cultures, and nationalities.</p>
                      </div>
                   </div>
                </div>
@@ -462,7 +473,7 @@
                         </div>
                      </div>
                      <div class="tp-service-content">
-                        <p>We have students coming from different backgrounds,cultures, & nationalities as well.</p>
+                        <p>A legacy of excellence built on milestones achieved through dedication, innovation, and collaboration.</p>
                      </div>
                   </div>
                </div>
@@ -486,7 +497,7 @@
                         </div>
                      </div>
                      <div class="tp-service-content">
-                        <p>We have students coming from different backgrounds,cultures, & nationalities as well.</p>
+                        <p>A network of premier institutions providing world-class education and shaping future leaders.</p>
                      </div>
                   </div>
                </div>
@@ -510,7 +521,7 @@
                         </div>
                      </div>
                      <div class="tp-service-content">
-                        <p>We have students coming from different backgrounds,cultures, & nationalities as well.</p>
+                        <p>Connect with us to explore opportunities, seek guidance, or become a part of our thriving community.</p>
                      </div>
                   </div>
                </div>
@@ -613,8 +624,8 @@
                               <span><img src="assets/img/icon/about/about-icon-1.svg" alt="about-icon"></span>
                            </div>
                            <div class="tp-about-list-content">
-                              <h5 class="tp-about-list-title">Building Trust</h5>
-                              <p>We are committed to <br> building trust</p>
+                              <h5 class="tp-about-list-title">Inspiring Futures</h5>
+                              <p>Empowering students with knowledge and values <br> to shape a brighter tomorrow.</p>
                            </div>
                         </div>
                         <div class="tp-about-list-item d-flex align-items-center mb-35">
@@ -622,8 +633,8 @@
                               <span><img src="assets/img/icon/about/about-icon-2.svg" alt="about-icon"></span>
                            </div>
                            <div class="tp-about-list-content">
-                              <h5 class="tp-about-list-title">Trusted by Students</h5>
-                              <p>Most trusted & recommended <br> by students</p>
+                              <h5 class="tp-about-list-title">Student-Centered Approach</h5>
+                              <p>Focused on delivering excellence and fostering <br> growth for every learner.</p>
                            </div>
                         </div>
                         <div class="tp-about-btn pt-10">

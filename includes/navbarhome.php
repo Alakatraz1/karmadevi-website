@@ -29,7 +29,7 @@
 
                   <div class="tp-header-info-item">
                      <span>
-                        <a href="tel:0123456789"><i><img src="assets/img/icon/calling.svg" alt="phone-img"></i> +91-6389086000</a>
+                        <a href="tel:6389086000"><i><img src="assets/img/icon/calling.svg" alt="phone-img"></i> +91-6389086000</a>
                      </span>
                   </div>
                   <div class="tp-header-info-item">

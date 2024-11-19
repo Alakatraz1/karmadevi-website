@@ -24,6 +24,14 @@
    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <style>
+      p{
+         text-align: justify;
+      }
+      .tp-counter-bg p{
+         text-align: center;
+      }
+   </style>
 </head>
 
 <body>

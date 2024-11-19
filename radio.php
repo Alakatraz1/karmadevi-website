@@ -23,6 +23,19 @@
    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <style>
+      p {
+         text-align: justify;
+      }
+
+      .tp-our-mission-item {
+
+         padding-right: 30px;
+      }
+      .tp-about-campus-title{
+         font-size:50px;
+      }
+   </style>
 </head>
 
 <body>
@@ -404,8 +417,6 @@
             border-radius: 16px;
             box-shadow: 0px 1px 1px rgba(3, 11, 30, 0.14), 0px 1px 2px rgba(3, 11, 30, 0.06);
          }
-
-         
       </style>
       <style>
          /* Add this to your CSS */
@@ -542,7 +553,7 @@
             </div>
       </section>
       <style>
-         .tp-our-mission-item{
+         .tp-our-mission-item {
             padding-top: 20px;
             padding-bottom: 20px;
          }
@@ -571,40 +582,50 @@
                         class="tp-our-mission-item d-flex align-items-center justify-content-center justify-content-md-between mb-20">
                         <div class="tp-our-mission-item-content">
                            <h4 class="tp-our-mission-item-title">Agriculture and Farming Insights:</h4>
-                           <p>For farmers, Radio Omni serves as a trusted companion, offering expert advice on best practices, seasonal crop management, weather forecasts, and government schemes that benefit the agricultural sector. These programs help local farmers enhance productivity and make informed decisions.
+                           <p>For farmers, Radio Omni serves as a trusted companion, offering expert advice on best
+                              practices, seasonal crop management, weather forecasts, and government schemes that
+                              benefit the agricultural sector. These programs help local farmers enhance productivity
+                              and make informed decisions.
                            </p>
 
                         </div>
-                        
+
                      </div>
 
                      <div
                         class="tp-our-mission-item d-flex align-items-center justify-content-center justify-content-md-between mb-20">
                         <div class="tp-our-mission-item-content">
                            <h4 class="tp-our-mission-item-title">Health and Wellness:</h4>
-                           <p>Programs that address healthcare, nutrition, and mental well-being are tailored especially for housewives and families. These segments provide tips for healthy living, interviews with healthcare professionals, and simple, effective practices to maintain physical and mental health.
+                           <p>Programs that address healthcare, nutrition, and mental well-being are tailored especially
+                              for housewives and families. These segments provide tips for healthy living, interviews
+                              with healthcare professionals, and simple, effective practices to maintain physical and
+                              mental health.
                            </p>
 
                         </div>
-                        
+
                      </div>
                      <div
                         class="tp-our-mission-item d-flex align-items-center justify-content-center justify-content-md-between mb-20">
                         <div class="tp-our-mission-item-content">
                            <h4 class="tp-our-mission-item-title">Educational Content:</h4>
-                           <p>Education-focused shows ensure that listeners from underprivileged backgrounds have access to knowledge that can help them in their daily lives. These include basic language lessons, vocational training snippets, and motivational talks.</p>
+                           <p>Education-focused shows ensure that listeners from underprivileged backgrounds have access
+                              to knowledge that can help them in their daily lives. These include basic language
+                              lessons, vocational training snippets, and motivational talks.</p>
 
                         </div>
-                        
+
                      </div>
                      <div
                         class="tp-our-mission-item d-flex align-items-center justify-content-center justify-content-md-between">
                         <div class="tp-our-mission-item-content">
                            <h4 class="tp-our-mission-item-title">Social Awareness:</h4>
-                           <p>Radio Omni 90.0 FM strives to spread awareness about important social issues, government policies, and community resources. Programs discuss topics such as women’s empowerment, financial literacy, and the importance of education.</p>
+                           <p>Radio Omni 90.0 FM strives to spread awareness about important social issues, government
+                              policies, and community resources. Programs discuss topics such as women’s empowerment,
+                              financial literacy, and the importance of education.</p>
 
                         </div>
-                        
+
                      </div>
                   </div>
                </div>
@@ -802,54 +823,59 @@
       </section>
 
       <section class="banner-area pb-40 pt-40">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-6">
-                     <div class="tp-banner-sm-2-wrap mb-60">
-                        <h3 class="tp-banner-sm-2-title">Radio Omni <br> 
-                           <span>90.0 FM
-                              <img class="tp-underline-shape-11 wow bounceIn" data-wow-duration="1.5s" data-wow-delay=".4s" src="assets/img/unlerline/banner-2-svg-1.svg" alt="" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: bounceIn;">
-                           </span>
-                        </h3>
-                        <div class="tp-banner-sm-2-btn" style="height:68px">
-                           <a href="https://omniradio.karmadevigroup.in">Heart Beat of Basti</a>
-                        </div>
-                        <div class="tp-banner-sm-2-shape-1">
-                           <img src="assets/img/banner/banner-2-thumb-1.png" alt="">
-                        </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <div class="tp-banner-sm-2-wrap mb-60">
+                     <h3 class="tp-banner-sm-2-title">Radio Omni <br>
+                        <span>90.0 FM
+                           <img class="tp-underline-shape-11 wow bounceIn" data-wow-duration="1.5s" data-wow-delay=".4s"
+                              src="assets/img/unlerline/banner-2-svg-1.svg" alt=""
+                              style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: bounceIn;">
+                        </span>
+                     </h3>
+                     <div class="tp-banner-sm-2-btn" style="height:68px">
+                        <a href="https://omniradio.karmadevigroup.in">Heart Beat of Basti</a>
+                     </div>
+                     <div class="tp-banner-sm-2-shape-1">
+                        <img src="assets/img/banner/banner-2-thumb-1.png" alt="">
                      </div>
                   </div>
-                  <style>
-                     .hovereffect:hover img{
-                        box-shadow: 10px 10px rgba(0,0,0,0.2);
-                     }
-                     
-                  </style>
-                  <div class="col-lg-6 background-blur">
-                     <div class="tp-banner-sm-2-wrap tp-banner-sm-2-bg-2 mb-60">
-                        <h3 class="tp-banner-sm-2-title">Download<br>
-                           <span>Now
-                              <img class="tp-underline-shape-11 wow bounceIn " data-wow-duration="1.5s" data-wow-delay=".4s" src="assets/img/unlerline/banner-2-svg-2.svg" alt="" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: bounceIn;">
-                           </span>
-                        </h3>
-                        <div style="display:flex;justify-content:space-around;align-items:center;">
+               </div>
+               <style>
+                  .hovereffect:hover img {
+                     box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+                  }
+               </style>
+               <div class="col-lg-6 background-blur">
+                  <div class="tp-banner-sm-2-wrap tp-banner-sm-2-bg-2 mb-60">
+                     <h3 class="tp-banner-sm-2-title">Download<br>
+                        <span>Now
+                           <img class="tp-underline-shape-11 wow bounceIn " data-wow-duration="1.5s"
+                              data-wow-delay=".4s" src="assets/img/unlerline/banner-2-svg-2.svg" alt=""
+                              style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: bounceIn;">
+                        </span>
+                     </h3>
+                     <div style="display:flex;justify-content:space-around;align-items:center;">
                         <div class="hovereffect">
-                           <a href="https://play.google.com/store/apps/details?id=in.karmadevigroup.omniradio.twa&hl=en_IN">
+                           <a
+                              href="https://play.google.com/store/apps/details?id=in.karmadevigroup.omniradio.twa&hl=en_IN">
                               <img src="/assets/gd/stores/google.jpg" alt="" style="width:90%;border-radius:60px">
                            </a>
                         </div>
                         <div class="hovereffect">
-                           <a href="#"><img src="/assets/gd/stores/apple.jpg" alt="" style="width:90%;border-radius:60px"></a>
+                           <a href="#"><img src="/assets/gd/stores/apple.jpg" alt=""
+                                 style="width:90%;border-radius:60px"></a>
                         </div>
-                        </div>
-                        <div class="tp-banner-sm-2-shape-1">
-                           <img src="assets/img/banner/banner-2-thumb-2.png" alt="">
-                        </div>
+                     </div>
+                     <div class="tp-banner-sm-2-shape-1">
+                        <img src="assets/img/banner/banner-2-thumb-2.png" alt="">
                      </div>
                   </div>
                </div>
             </div>
-         </section>
+         </div>
+      </section>
 
       <!-- error area end -->
 

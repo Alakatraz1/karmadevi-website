@@ -23,6 +23,14 @@
    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <style>
+       p {
+         text-align: justify;
+      }
+      .tp-about-campus-title{
+         font-size:50px;
+      }
+   </style>
 </head>
 
 <body>
@@ -403,10 +411,10 @@
                   <div class="tp-about-wrap mb-60 wow fadeInLeft" data-wow-delay=".3s">
                      <div class="tp-about-thumb-wrapper">
                         <div class="tp-about-thumb-1">
-                           <img src="assets/img/about/about-thumb-1.jpg" alt="">
+                           <img src="assets/management/place1.webp" alt="">
                         </div>
                         <div class="tp-about-thumb-2">
-                           <img src="assets/img/about/about-thumb-2.jpg" alt="">
+                           <img src="assets/management/image.png" alt="">
                         </div>
                      </div>
                      <div class="tp-about-shape">
@@ -418,16 +426,29 @@
                         </div>
                      </div>
                      <div class="tp-about-exprience">
-                        <div class="tp-about-exprience-text d-flex">
+                     <div class="tp-about-exprience-text d-flex">
                            <h3 class="tp-about-exprience-count">
-                              <span data-purecounter-duration="1" data-purecounter-end="27"
-                                 class="purecounter">27</span>
+                              <span id="years-experience" class="purecounter" data-purecounter-duration="1"></span>
                            </h3>
                            <p>Years of <br> Experience</p>
                         </div>
                      </div>
                   </div>
                </div>
+               <script>
+                  // Get the current year
+                  const currentYear = new Date().getFullYear();
+
+                  // The founding year of the college
+                  const foundingYear = 2010;
+
+                  // Calculate years of experience
+                  const yearsOfExperience = currentYear - foundingYear;
+
+                  // Set the calculated years of experience in the purecounter element
+                  const counterElement = document.getElementById("years-experience");
+                  counterElement.setAttribute("data-purecounter-end", yearsOfExperience);
+               </script>
                <div class="col-lg-6">
                   <div class="tp-about-wrapper mb-60 wow fadeInRight" data-wow-delay=".3s">
                      <div class="tp-section mb-40">
