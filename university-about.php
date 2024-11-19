@@ -737,7 +737,7 @@
 
 
       <!-- about year area start -->
-      <section class="tp-about-year-area tp-about-year-bg p-relative pt-200 pb-95">
+      <section class="tp-about-year-area tp-about-year-bg p-relative pt-200 pb-95" id="history">
          <div class="tp-about-year-shape">
             <div class="shape-1">
                <img src="assets/img/our-mission/star.png" alt="">

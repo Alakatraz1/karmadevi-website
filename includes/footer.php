@@ -33,12 +33,13 @@
                   <h4 class="tp-footer-widget-title mb-20">About</h4>
                   <div class="tp-footer-widget-link">
                      <ul>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">News & Blogs</a></li>
-                        <li><a href="#">Become a Teacher</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Contact</a></li>
+                        
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="univeristy-about.php#intro">About KDG</a></li>
+                        <li><a href="university-about.php#mission">Mission and Vision</a></li>
+                        <li><a href="university-about.php#management">Leadership Team</a></li>
+                        <li><a href="university-about.php#history">History</a></li>
+                        <li><a href="university-about.php#institution">Our Institutions</a></li>
                      </ul>
                   </div>
                </div>

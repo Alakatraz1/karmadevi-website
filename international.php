@@ -412,12 +412,12 @@
                   <div class="col-lg-6">
                      <div class="tp-blog-item text-center mb-40 wow fadeInLeft" data-wow-delay=".2s">
                         <div class="tp-blog-thumb fix">
-                           <a href="digitalzone.php"><img src="assets/img/blog/blog-thumb-1.jpg" alt="blog-thumb"></a>
+                           <a ><img src="assets/img/blog/blog-thumb-1.jpg" alt="blog-thumb"></a>
                         </div>
                         <div class="tp-blog-content">
 
                            <h4 class="tp-blog-title">
-                              <a href="digitalzone.php">Communication Skills Workshops</a>
+                              <a >Communication Skills Workshops</a>
                            </h4>
                            <p>
                               The seminars are designed to improve verbal and non-verbal communication,
@@ -428,17 +428,11 @@
                            </p>
 
                            <div class="tp-blog-btn">
-                              <a href="digitalzone.php">
+                              <a >
                                  <span class="tp-blog-btn-bg blog-btn-bg"></span>
                                  <span class="tp-blog-btn-border blog-btn-border"></span>
                                  <span class="icon">
-                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M1 6H11" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                       <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="2"
-                                          stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                 <svg version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve"><style>.st0{display:none}.st1{display:inline}.st2{fill:#0a0a0a}</style><g id="row1_1_"><g id="_x35__2_"><path class="st2" d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm23.2-76.8c-.9-.9-2.3-.9-3.2 0L55.2 73.2 41.4 59.5c-.9-.9-2.3-.9-3.2 0l-4.8 4.8c-.9.9-.9 2.3 0 3.2l15.3 15.3 3.3 3.3.8.8.7.7c.9.9 2.3.9 3.2 0L92 52.5c.9-.9.9-2.3 0-3.2l-4.8-4.8z" id="error_transparent_copy"/></g></g></svg>
                                  </span>
                               </a>
                            </div>
@@ -448,14 +442,14 @@
                   <div class="col-lg-6">
                      <div class="tp-blog-item text-center mb-40 wow fadeInRight" data-wow-delay=".2s">
                         <div class="tp-blog-thumb fix">
-                           <a href="#">
+                           <a>
                               <img src="assets/img/blog/blog-thumb-2.jpg" alt="blog-thumb">
                            </a>
                         </div>
                         <div class="tp-blog-content">
 
                            <h4 class="tp-blog-title">
-                              <a href="#">Interactive Sessions & Practical Training</a>
+                              <a>Interactive Sessions & Practical Training</a>
                            </h4>
                            <p>
                               These workshops go beyond theory by including interactive activities that
@@ -465,17 +459,11 @@
                            </p>
 
                            <div class="tp-blog-btn">
-                              <a href="#">
-                                 <span class="tp-blog-btn-bg blog-btn-bg"></span>
+                              <a>
+                              <span class="tp-blog-btn-bg blog-btn-bg"></span>
                                  <span class="tp-blog-btn-border blog-btn-border"></span>
                                  <span class="icon">
-                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M1 6H11" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                       <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="2"
-                                          stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                 <svg version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve"><style>.st0{display:none}.st1{display:inline}.st2{fill:#0a0a0a}</style><g id="row1_1_"><g id="_x35__2_"><path class="st2" d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm23.2-76.8c-.9-.9-2.3-.9-3.2 0L55.2 73.2 41.4 59.5c-.9-.9-2.3-.9-3.2 0l-4.8 4.8c-.9.9-.9 2.3 0 3.2l15.3 15.3 3.3 3.3.8.8.7.7c.9.9 2.3.9 3.2 0L92 52.5c.9-.9.9-2.3 0-3.2l-4.8-4.8z" id="error_transparent_copy"/></g></g></svg>
                                  </span>
                               </a>
                            </div>
