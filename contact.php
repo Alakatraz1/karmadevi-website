@@ -541,7 +541,7 @@
 
 
       <!-- contact area start -->
-      <section class="tp-contact-area tp-contact-p fix p-relative pt-150 pb-125">
+      <section class="tp-contact-area tp-contact-p fix p-relative pt-150 pb-125" id="contact-form">
          <div class="tp-contact-bg" data-background="assets/img/live/contact-bg.png"></div>
          <div class="tp-contact-shape">
             <span>

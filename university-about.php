@@ -987,7 +987,7 @@
                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/about-institute/background/omni.jpg" alt="">
                            </div>
                            <div class="tp-about-campus-content d-flex justify-content-between">
                               <div class="tp-about-campus-location">
@@ -1009,7 +1009,7 @@
                      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/about-institute/background/pspharma.jpg" alt="">
                            </div>
                            <div class="tp-about-campus-content d-flex justify-content-between">
                               <div class="tp-about-campus-location">
@@ -1031,7 +1031,7 @@
                      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/about-institute/background/psnursing.jpg" alt="">
                            </div>
                            <div class="tp-about-campus-content d-flex justify-content-between">
                               <div class="tp-about-campus-location">
@@ -1052,7 +1052,7 @@
                      <div class="tab-pane fade" id="Moscow" role="tabpanel" aria-labelledby="Moscow-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/about-institute/background/karmasmriti.jpg" alt="">
                            </div>
                            <div class="tp-about-campus-content d-flex justify-content-between">
                               <div class="tp-about-campus-location">
@@ -1073,7 +1073,7 @@
                      <div class="tab-pane fade" id="Campus" role="tabpanel" aria-labelledby="Campus-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/about-institute/background/dmssps.jpg" alt="">
                            </div>
                            <div class="tp-about-campus-content d-flex justify-content-between">
                               <div class="tp-about-campus-location">

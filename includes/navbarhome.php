@@ -232,7 +232,7 @@
                <div class="tp-header-contact d-flex align-items-center justify-content-end">
 
                   <div class="tp-header-btn d-none d-md-block ml-30">
-                     <a href="university-application-form.php">Apply Now </a>
+                     <a href="contact.php#contact-form">Apply Now </a>
                   </div>
                   <div class="tp-header-bar d-xl-none ml-30">
                      <button class="offcanvas-open-btn"><i class="fa-solid fa-bars"></i></button>
