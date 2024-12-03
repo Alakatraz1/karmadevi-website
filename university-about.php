@@ -24,6 +24,8 @@
    <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
    <style>
       p {
          text-align: justify;
@@ -425,7 +427,8 @@
             <div class="row">
                <div class="col-12">
                   <div class="tp-about-4-wrapper mb-80 wow fadeInUp" data-wow-delay=".3s">
-                     <h2 class="tp-about-4-head">“Bringing Education to a level plain, where all children get an equal
+                     <h2 class="tp-about-4-head" style="font-size:40px">“Bringing Education to a level plain, where all
+                        children get an equal
                         opportunity and access to growth and progress”</h2>
                      <div class="tp-course-details-2-content">
                         <div id="info">
@@ -620,7 +623,7 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="10" class="purecounter">10</span>k
+                           <span data-purecounter-duration="1" data-purecounter-end="4" class="purecounter">4</span>k
                         </h3>
                         <p>Students</p>
                      </div>
@@ -628,9 +631,10 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="300" class="purecounter">300</span>
+                           <span data-purecounter-duration="1" data-purecounter-end="300"
+                              class="purecounter">300</span>+
                         </h3>
-                        <p>Professors</p>
+                        <p>Faculty</p>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
@@ -644,7 +648,8 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item item-end text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="2" class="purecounter">2</span>k
+                           <span data-purecounter-duration="1" data-purecounter-end="100"
+                              class="purecounter">100</span>+
                         </h3>
                         <p>Research</p>
                      </div>
@@ -699,7 +704,7 @@
                         </div>
                         <div class="tp-our-mission-item-thumb">
                            <div class="tp-our-mission-item-thumb-1">
-                              <img src="assets/img/our-mission/mission-item-1.jpg" alt="">
+                              <img src="assets/gd/about/1.webp" alt="">
                            </div>
                         </div>
                      </div>
@@ -713,7 +718,7 @@
                         </div>
                         <div class="tp-our-mission-item-thumb">
                            <div class="tp-our-mission-item-thumb-3">
-                              <img src="assets/img/our-mission/mission-item-2.jpg" alt="">
+                              <img src="assets/gd/about/2.webp" alt="">
                            </div>
                         </div>
                      </div>
@@ -727,7 +732,7 @@
                         </div>
                         <div class="tp-our-mission-item-thumb">
                            <div class="tp-our-mission-item-thumb-2">
-                              <img src="assets/img/our-mission/mission-item-3.jpg" alt="">
+                              <img src="assets/gd/about/3.webp" alt="">
                            </div>
                         </div>
                      </div>
@@ -838,7 +843,7 @@
       <style>
          .tp-about-team-content {
             position: absolute;
-            top: 10px;
+            top: 80%;
             left: 0px;
             transition: all 0.3s 0s ease-out;
             width: 100%;
@@ -848,12 +853,13 @@
          .tp-about-team-content h4,
          .tp-about-team-content p {
             text-decoration: underline;
-            padding:0px 10px;
+            padding: 0px 10px;
             color: black;
             background: rgba(255, 255, 255, 0.7);
             width: 100%;
          }
-         .tp-about-team-content p{
+
+         .tp-about-team-content p {
             text-decoration: none;
          }
 
@@ -1119,6 +1125,34 @@
             </div>
          </div>
       </section>
+      <style>
+    /* Ensure proper display across all screen sizes */
+    @media (max-width: 768px) {
+        #pdf-iframe {
+            height: 300px; /* Adjust height for mobile view */
+        }
+    }
+
+    @media (min-width: 769px) {
+        #pdf-iframe {
+            height: 500px; /* Height for desktop view */
+        }
+    }
+</style>
+      <iframe id="pdf-iframe" 
+    src="assets/gd/pdf/KDG_Career_Counseling_Event.pdf#toolbar=0" 
+    width="100%" 
+    height="100%" 
+    style="border: none; max-width: 100%; min-height: 500px;">
+</iframe>
+
+
+
+
+
+
+
+
       <!-- about campus area end -->
    </main>
 

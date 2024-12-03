@@ -364,7 +364,7 @@
    <!-- offcanvas area start -->
    <?php include('includes/sidemenu.php')?>
    <!-- offcanvas area end -->
-   <section class="tp-breadcrumb__area pt-150 pb-150 p-relative z-index-1 fix" >
+   <section class="tp-breadcrumb__area pt-120 pb-50 p-relative z-index-1 fix" >
          <div class="tp-breadcrumb__bg" data-background="assets/gd/breadcrumb/blog-stories-bg.png"></div>
          <div class="container">
             <div class="row align-items-center">
@@ -413,68 +413,54 @@ figure img {
 figure:hover img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
+}.gallery .thumb {
+    position: relative;
+    overflow: hidden; /* Ensures any overflowing image content is hidden */
 }
+
+.gallery .thumb figure {
+    width: 100%; /* Make the figure take full width of the parent container */
+    height: 200px; /* Set a fixed height for uniformity */
+    margin: 0;
+}
+
+.gallery .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the box without distortion */
+    display: block; /* Removes inline space below images */
+}
+
 
       </style>
 
-   <section class="container pb-120 pt-120">
-	<h1 class="my-4 text-center text-lg-left">Image Gallery</h1>
-	<div class="row gallery">
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=1">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=1" alt="Random Image"></figure>
-			</a>
-		</div>
+<section class="container pb-120">
+    
+    <div class="row gallery">
+        <?php
+        // Directory containing the images
+        $directory = 'assets/gd/gallery/';
+        // Allowed file extensions
+        $allowed_extensions = ['webp'];
+        // Scanning the directory for image files
+        $images = array_filter(scandir($directory), function ($file) use ($directory, $allowed_extensions) {
+            $extension = pathinfo($file, PATHINFO_EXTENSION);
+            return is_file($directory . $file) && in_array(strtolower($extension), $allowed_extensions);
+        });
 
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=2">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=2" alt="Random Image"></figure>
-			</a>
-		</div>
-
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=3">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=3" alt="Random Image"></figure>
-			</a>
-		</div>
-
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=4">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=4" alt="Random Image"></figure>
-			</a>
-		</div>
-
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=5">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=5" alt="Random Image"></figure>
-			</a>
-		</div>
-
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=6">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=6" alt="Random Image"></figure>
-			</a>
-		</div>
-
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=6">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=6" alt="Random Image"></figure>
-			</a>
-		</div>
-
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=7">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=7" alt="Random Image"></figure>
-			</a>
-		</div>
-
-		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
-			<a href="https://picsum.photos/940/650?random=8">
-				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=8" alt="Random Image"></figure>
-			</a>
-		</div>
-	</div>
+        // Loop through the images and create gallery items
+        foreach ($images as $image) {
+            $imagePath = $directory . $image;
+            echo '<div class="col-lg-3 col-md-4 col-xs-6 thumb">';
+            echo '    <a href="' . $imagePath . '">';
+            echo '        <figure><img class="img-fluid img-thumbnail" src="' . $imagePath . '" alt="Gallery Image"></figure>';
+            echo '    </a>';
+            echo '</div>';
+        }
+        ?>
+    </div>
 </section>
+
       
       
       

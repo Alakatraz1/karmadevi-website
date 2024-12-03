@@ -7,7 +7,7 @@
 <head>
    <meta charset="utf-8">
    <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title>Karma Devi Group</title>
+   <title>Home - Karma Devi Group</title>
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -670,7 +670,7 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="10" class="purecounter">10</span>k
+                           <span data-purecounter-duration="1" data-purecounter-end="10" class="purecounter">4</span>k
                         </h3>
                         <p>Students</p>
                      </div>
@@ -678,15 +678,15 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="300" class="purecounter">300</span>
+                           <span data-purecounter-duration="1" data-purecounter-end="300" class="purecounter">300</span>+
                         </h3>
-                        <p>Professors</p>
+                        <p>Faculty</p>
                      </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="48" class="purecounter">48</span>k
+                           <span data-purecounter-duration="1" data-purecounter-end="48" class="purecounter">48</span>
                         </h3>
                         <p>Programs</p>
                      </div>
@@ -694,7 +694,7 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item item-end text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="2" class="purecounter">2</span>k
+                           <span data-purecounter-duration="1" data-purecounter-end="100" class="purecounter">100</span>+
                         </h3>
                         <p>Research</p>
                      </div>
@@ -1444,46 +1444,71 @@
          </div>
       </section>
       <!-- blog-area-end -->
+<style>
+   .tp-instagram-item a {
+    pointer-events: none;
+   }
+/* Default (Desktop) - Square images */
+.tp-instagram-item img {
+    width: 200px; /* Fixed width for square */
+    height: 200px; /* Fixed height, same as width */
+    object-fit: cover; /* Ensures the image fits the square without distortion */
+    border-radius: 5px; /* Optional: Adds rounded corners for a polished look */
+    display: block; /* Prevents inline-block spacing issues */
+    margin: auto; /* Centers the image inside the container */
+}
 
+/* Mobile View - Adjust image size */
+@media (max-width: 767px) {
+    .tp-instagram-item img {
+        width: 150px; /* Smaller square size for mobile */
+        height: 150px; /* Fixed height, same as width */
+    }
+}
+
+
+
+
+</style>
 
       <!-- instagram-area-start -->
       <div class="instagram-area tp-instagram-wrapper grey-bg pb-20">
          <div class="swiper tp-instagram-active">
             <div class="swiper-wrapper wow fadeInUp" data-wow-delay=".2s">
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/img/instagram/instagram-thumb-1.jpg">
-                     <img src="assets/img/instagram/instagram-thumb-1.jpg" alt=""></a>
-                  <div class="tp-instagram-shape">
-                     <img src="assets/img/instagram/instagram-shape.svg" alt="">
-                  </div>
+                  <a class="popup-image" href="assets/gd/partners/1.webp">
+                     <img src="assets/gd/partners/1.webp" alt=""></a>
+                  
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/img/instagram/instagram-thumb-2.jpg">
-                     <img src="assets/img/instagram/instagram-thumb-2.jpg" alt=""></a>
-                  <div class="tp-instagram-shape">
-                     <img src="assets/img/instagram/instagram-shape.svg" alt="">
-                  </div>
+                  <a class="popup-image" href="assets/gd/partners/2.webp">
+                     <img src="assets/gd/partners/2.webp" alt=""></a>
+                  
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/img/instagram/instagram-thumb-3.jpg">
-                     <img src="assets/img/instagram/instagram-thumb-3.jpg" alt=""></a>
-                  <div class="tp-instagram-shape">
-                     <img src="assets/img/instagram/instagram-shape.svg" alt="">
-                  </div>
+                  <a class="popup-image" href="assets/gd/partners/3.webp">
+                     <img src="assets/gd/partners/3.webp" alt=""></a>
+                  
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/img/instagram/instagram-thumb-4.jpg">
-                     <img src="assets/img/instagram/instagram-thumb-4.jpg" alt=""></a>
-                  <div class="tp-instagram-shape">
-                     <img src="assets/img/instagram/instagram-shape.svg" alt="">
-                  </div>
+                  <a class="popup-image" href="assets/gd/partners/4.webp">
+                     <img src="assets/gd/partners/4.webp" alt=""></a>
+                  
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/img/instagram/instagram-thumb-5.jpg">
-                     <img src="assets/img/instagram/instagram-thumb-5.jpg" alt=""></a>
-                  <div class="tp-instagram-shape">
-                     <img src="assets/img/instagram/instagram-shape.svg" alt="">
-                  </div>
+                  <a class="popup-image" href="assets/gd/partners/5.webp">
+                     <img src="assets/gd/partners/5.webp" alt=""></a>
+                  
+               </div>
+               <div class="swiper-slide tp-instagram-item">
+                  <a class="popup-image" href="assets/gd/partners/6.webp">
+                     <img src="assets/gd/partners/6.webp" alt=""></a>
+                  
+               </div>
+               <div class="swiper-slide tp-instagram-item">
+                  <a class="popup-image" href="assets/gd/partners/7.jpg">
+                     <img src="assets/gd/partners/7.jpg" alt=""></a>
+                  
                </div>
             </div>
          </div>

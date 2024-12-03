@@ -83,7 +83,7 @@
                      <div class="tp-footer-newsletter-social">
                         <a class="social-fb" href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         <a class="social-twit" href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a class="social-lnkd" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a class="social-lnkd" href="https://www.linkedin.com/company/group-karmadevi/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a class="social-yout" href="#"><i class="fa-brands fa-youtube"></i></a>
                      </div>
                   </div>
@@ -97,7 +97,7 @@
          <div class="row">
             <div class="col-lg-12">
                <div class="tp-footer-copyright text-center">
-                  <span>© <span id="current-year"></span> <a href="#">Acadia</a>. All rights reserved.</span>
+                  <span>© <span id="current-year"></span> <a href="#">Karma Devi Group</a>. All rights reserved.</span>
                </div>
             </div>
          </div>

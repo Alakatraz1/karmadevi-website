@@ -44,7 +44,7 @@
                   <div class="tp-header-info-item d-none d-md-block">
                      <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
                      <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
-                     <span><a href="#"><i class="fa-brands fa-linkedin"></i></a></span>
+                     <span><a href="https://www.linkedin.com/company/group-karmadevi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></span>
                      <span><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
                      <span><a href="#"><i class="fa-brands fa-whatsapp"></i></a></span>
                   </div>
@@ -211,6 +211,7 @@
                               <li><a href="international.php">International Collaborations</a></li>
                               <li><a href="blog-list.php">GB Welfare Trust</a></li>
                               <li><a href="radio.php">Omni Radio 90.0 FM</a></li>
+                              <li><a href="linktree.php">Socials</a></li>
 
 
                            </ul>
