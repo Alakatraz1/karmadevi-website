@@ -747,7 +747,7 @@
                      <div class="swiper-wrapper">
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-1.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/gallery/image001.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Integrity and
@@ -767,7 +767,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-2.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/gallery/image002.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Inclusivity and
@@ -786,7 +786,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-3.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/gallery/image003.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Excellence in
@@ -807,7 +807,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-1.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/gallery/image004.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Commitment to
@@ -827,7 +827,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-2.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/gallery/image005.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Holistic
@@ -849,7 +849,7 @@
 
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-2.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/gallery/image006.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Innovation and
@@ -870,7 +870,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-2.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/gallery/image007.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Student-Centric
@@ -890,7 +890,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-2.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/gallery/image008.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Collaboration and

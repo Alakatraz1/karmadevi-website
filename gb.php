@@ -203,7 +203,7 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                            <div class="tp-about-campus-box p-relative">
                               <div class="tp-about-campus-thumb">
-                                 <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                                 <img src="assets/gd/gb/hero.jpg" alt="">
                               </div>
 
                               <div class="tp-about-campus-content">

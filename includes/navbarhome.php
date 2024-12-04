@@ -46,7 +46,7 @@
                      <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
                      <span><a href="https://www.linkedin.com/company/group-karmadevi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></span>
                      <span><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
-                     <span><a href="#"><i class="fa-brands fa-whatsapp"></i></a></span>
+                     <span><a href="https://wa.me/6389086000"><i class="fa-brands fa-whatsapp"></i></a></span>
                   </div>
                </div>
             </div>

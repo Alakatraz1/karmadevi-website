@@ -775,19 +775,19 @@
          <div class="tp-about-year-plr tp-about-year-nav">
             <div class="slider slider-nav">
                <div>
-                  <h3 class="tp-about-year-nav-title">1996</h3>
+                  <h3 class="tp-about-year-nav-title">2015</h3>
                </div>
                <div>
-                  <h3 class="tp-about-year-nav-title">2005</h3>
+                  <h3 class="tp-about-year-nav-title">2019</h3>
                </div>
                <div>
-                  <h3 class="tp-about-year-nav-title">2012</h3>
+                  <h3 class="tp-about-year-nav-title">2020</h3>
                </div>
                <div>
-                  <h3 class="tp-about-year-nav-title">2000</h3>
+                  <h3 class="tp-about-year-nav-title">2021</h3>
                </div>
                <div>
-                  <h3 class="tp-about-year-nav-title">2023</h3>
+                  <h3 class="tp-about-year-nav-title">2022</h3>
                </div>
             </div>
          </div>
