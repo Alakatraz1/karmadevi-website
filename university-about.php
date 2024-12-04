@@ -435,32 +435,44 @@
                            <h4 class="tp-course-details-2-main-title">About Us</h4>
                            <div class="tp-course-details-2-text ">
                               <div class="content">
-                                 <p>Welcome to the Karmadevi Group of Institutions, a beacon of learning and growth in
-                                    Basti, Uttar Pradesh. Established in 2009 by Mr. O.N. Singh, a respected Retired IAS
-                                    officer, our group of institutions is rooted in the vision of transforming education
-                                    and making it accessible to all. Mr. Singh's profound connection to this region,
-                                    where he spent his formative years, inspired him to create a nurturing academic
-                                    environment that offers quality education and empowers the youth of Basti and its
-                                    surrounding areas.</p>
-                                 <p>Mr. Singh’s father, Late Shri. Praduman Singh was a farmer and passed away very
-                                    early in his life. Mr Singh and his brother Late Mr. D.M Singh (IFS) were raised by
-                                    their mother Late Smt. Karma Devi who was an ardent believer in the power of
-                                    education. She was an advocate of education for all and a promoter of progress, who
-                                    inspired many and encouraged the idea of giving back and paying it forward by
-                                    teaching underprivileged children at her home in the village of Ranipur, Basti.</p>
-                                 <p>Our journey began with a mission to bridge the educational divide, ensuring that
-                                    every child, regardless of background, has the chance to excel and reach their
-                                    fullest potential. We believe that education is the cornerstone of development, and
-                                    through our diverse array of programs and courses, we aim to shape future leaders,
-                                    innovators, and compassionate citizens. With this in mind the foundation stone of
-                                    our first college Karmadevi PG and D.El.ED College was laid on 11th Dec 2009, a key
-                                    date which we celebrate every year as our foundation day.</p>
-                                 <p>The growth story of Karmadevi Group of Institutions continued over the years and in
-                                    the span of 15 years, many more colleges and courses were added in our portfolio
-                                    namely DMS B.Ed and D.El.ED College, Praduman Singh Pharmacy College, Praduman Singh
-                                    College of Nursing and Paramedical Sciences, Omni International School (CBSE), Radio
-                                    Omni 90.0 FM, Karma Digital Zone, Karma Vocational Academy, Karmadevi PG College
-                                    (BCA Course) to name a few.</p>
+                                 <p>Karma Devi Group (KDG), established in 2010, is an educational powerhouse dedicated
+                                    to transforming lives through high-quality, inclusive education. With a strong
+                                    belief in "Education with Purpose," KDG strives to meet the academic and
+                                    professional aspirations of students across various disciplines. The group is led by
+                                    Mr. Om Narayan Singh, an inspirational figure who has dedicated his life to
+                                    education after a distinguished career in the Indian Administrative Service (IAS).
+                                    His vision is to provide accessible, quality education in rural areas, helping
+                                    students achieve their potential while staying close to home.</p>
+                                 <p>Born and raised in Basti, Uttar Pradesh, Mr. Singh’s early life was shaped by his
+                                    humble beginnings and the values instilled by his family. He lost his father, a
+                                    teacher, at a young age, but was guided by his strong-willed mother, who encouraged
+                                    him to be independent and take responsibility for his future. Her belief in the
+                                    power of education deeply influenced his life, motivating him to pursue higher
+                                    goals. Mr. Singh's academic journey began in the primary schools of his village, and
+                                    after moving to the city for further education, he earned his degree in Arts from
+                                    Allahabad University. His mother’s insistence on the importance of education led him
+                                    to clear India’s toughest competitive exam and enter the prestigious Indian
+                                    Administrative Service (IAS) in 1983. Over the next three decades, he served the
+                                    nation as an IAS officer, earning immense respect for his leadership and vision.</p>
+                                 <p>Karma Devi Group comprises a diverse range of institutions catering to different
+                                    educational needs. These include Karma Devi Smriti PG & D.El.Ed College, D.M.S. B.Ed
+                                    & D.El.Ed College, P.S. Pharmacy College, P.S. Nursing College, Omni International
+                                    School (CBSE School), Omni Radio 90.0 FM, KarmaDevi Digital Zone, Karma Vocational
+                                    Academy, D.M.S. Pharmacy College, and D.M.S. Law College. The group also has
+                                    ambitious future projects, such as Omni Hospital & Trauma Centre and KarmaDevi
+                                    Institute of Technology, ensuring that it continues to evolve and meet the growing
+                                    educational and healthcare needs of the community.</p>
+                                 <p>Spread across 9 lush acres on the banks of the River Kuano in Basti, the group’s
+                                    state-of-the-art campus offers a conducive environment for academic and personal
+                                    growth. Equipped with modern facilities such as Wi-Fi-enabled infrastructure, two
+                                    swimming pools, five playgrounds, three residential accommodations, four
+                                    well-stocked libraries, a dining hall, 24/7 security, and transportation, the campus
+                                    is designed to provide a holistic learning experience.</p>
+                                 <p>
+                                    Karma Devi Group continues to shape the future of education in Basti and beyond,
+                                    fostering academic excellence, empowering students, and creating opportunities for
+                                    growth, health, and innovation in the region.   
+                                 </p>
 
                               </div>
                               <a class="tp-course-details-showmore show-more-button"><span class="svg-icon">
@@ -579,14 +591,14 @@
                      }
                   }
                </style>
-               <div class="gallery-container">
-                  <div class="panel active" style="background-image: url('https://picsum.photos/940/650?random=1')">
+               <div class="gallery-container" style="display:none">
+                  <div class="panel active" style="background-image: url('#')">
                      <h2>Explore Nature</h2>
                   </div>
-                  <div class="panel" style="background-image: url('https://picsum.photos/940/650?random=2')">
+                  <div class="panel" style="background-image: url('#')">
                      <h2>City Life</h2>
                   </div>
-                  <div class="panel" style="background-image: url('https://picsum.photos/940/650?random=3')">
+                  <div class="panel" style="background-image: url('#')">
                      <h2>Ocean Views</h2>
                   </div>
 
@@ -1126,25 +1138,41 @@
          </div>
       </section>
       <style>
-    /* Ensure proper display across all screen sizes */
-    @media (max-width: 768px) {
-        #pdf-iframe {
-            height: 300px; /* Adjust height for mobile view */
-        }
-    }
+         .carousel-control-next-icon,
+         .carousel-control-prev-icon {
+            background-color: black;
+            padding: 20px;
+            border-radius: 50%;
+         }
+      </style>
+      <div style="padding:5%">
+         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true">
+            <div class="carousel-inner">
+               <?php
+               for ($i = 1; $i <= 33; $i++) {
+                  // Format the number to three digits
+                  $imageNumber = str_pad($i, 4, '0', STR_PAD_LEFT);
+                  // Set the active class for the first item
+                  $activeClass = ($i === 1) ? 'active' : '';
+                  echo '<div class="carousel-item ' . $activeClass . '">';
+                  echo '<img src="./assets/gd/pdfimage/' . $imageNumber . '.webp" class="d-block w-100" alt="...">';
+                  echo '</div>';
+               }
+               ?>
 
-    @media (min-width: 769px) {
-        #pdf-iframe {
-            height: 500px; /* Height for desktop view */
-        }
-    }
-</style>
-      <iframe id="pdf-iframe" 
-    src="assets/gd/pdf/KDG_Career_Counseling_Event.pdf#toolbar=0" 
-    width="100%" 
-    height="100%" 
-    style="border: none; max-width: 100%; min-height: 500px;">
-</iframe>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </div>
 
 
 

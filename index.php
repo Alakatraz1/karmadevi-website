@@ -670,7 +670,7 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="10" class="purecounter">4</span>k
+                           <span data-purecounter-duration="1" data-purecounter-end="4" class="purecounter">4</span>k
                         </h3>
                         <p>Students</p>
                      </div>
@@ -917,7 +917,7 @@
                </div>
                <div class="col-12">
                   <div class="tp-program-all text-center">
-                     <p>Explore Karma Devi Group.​​ <a href="university-program.php">View more
+                     <p>Explore Karma Devi Group.​​ <a href="university-about.php">View more
                            <span>
                               <svg width="10" height="10" viewBox="0 0 12 12" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -1383,16 +1383,16 @@
                <div class="col-lg-6">
                   <div class="tp-blog-item text-center mb-40 wow fadeInLeft" data-wow-delay=".2s">
                      <div class="tp-blog-thumb fix">
-                        <a href="#"><img src="assets/img/blog/blog-thumb-1.jpg" alt="blog-thumb"></a>
+                        <a href="gb.php"><img src="assets/img/blog/blog-thumb-1.jpg" alt="blog-thumb"></a>
                      </div>
                      <div class="tp-blog-content">
 
                         <h4 class="tp-blog-title">
-                           <a href="#">GB Welfare Trust</a>
+                           <a href="gb.php">GB Welfare Trust</a>
                         </h4>
 
                         <div class="tp-blog-btn">
-                           <a href="#">
+                           <a href="gb.php">
                               <span class="tp-blog-btn-bg blog-btn-bg"></span>
                               <span class="tp-blog-btn-border blog-btn-border"></span>
                               <span class="icon">
