@@ -82,7 +82,7 @@
                      </form>
                      <div class="tp-footer-newsletter-social">
                         <a class="social-fb" href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a class="social-twit" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        
                         <a class="social-lnkd" href="https://www.linkedin.com/company/group-karmadevi/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                         <a class="social-yout" href="#"><i class="fa-brands fa-youtube"></i></a>
                         <a class="social-yout" href="https://wa.me/6389086000"><i class="fa-brands fa-whatsapp" style="color:green"></i></a>

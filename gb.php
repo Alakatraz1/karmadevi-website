@@ -349,11 +349,23 @@
                         </p>
                      </div>
                </div>
+               <style>
+                  .tp-blog-thumb a img{
+                     min-height:350px;
+                     max-height:350px;
+                  }
+                  @media (max-width:751px){
+                     .tp-blog-thumb a img{
+                     min-height:auto;
+                     max-height:auto;
+                  }
+                  }
+               </style>
                <div class="row">
                   <div class="col-lg-6">
                      <div class="tp-blog-item text-center mb-40 wow fadeInLeft" data-wow-delay=".2s">
                         <div class="tp-blog-thumb fix">
-                           <a><img src="assets/img/blog/blog-thumb-1.jpg" alt="blog-thumb"></a>
+                           <a><img src="assets/gd/gb/mission.jpg" alt="blog-thumb"></a>
                         </div>
                         <div class="tp-blog-content">
 
@@ -408,7 +420,7 @@
                      <div class="tp-blog-item text-center mb-40 wow fadeInRight" data-wow-delay=".2s">
                         <div class="tp-blog-thumb fix">
                            <a>
-                              <img src="assets/img/blog/blog-thumb-2.jpg" alt="blog-thumb">
+                              <img src="assets/gd/gb/vision.jpg" alt="blog-thumb">
                            </a>
                         </div>
                         <div class="tp-blog-content">
@@ -521,12 +533,8 @@
                      <div class="col-lg-12">
                         <div class="tp-live-7-item d-flex align-items-center">
                            <div class="tp-live-7-item-thumb p-relative">
-                              <img src="assets/img/live/live-thumb-2.jpg" alt="">
-                              <div class="tp-event-details-teaser-video-popup">
-                                 <a class="popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494">
-                                    <img src="assets/img/event/event/youtube.png" alt="">
-                                 </a>
-                              </div>
+                              <img src="assets/gd/gb/sanitation.jpg" alt="">
+                              
                            </div>
                            <div class="tp-live-7-item-content">
 
@@ -561,12 +569,8 @@
                      <div class="col-lg-12">
                         <div class="tp-live-7-item d-flex align-items-center">
                            <div class="tp-live-7-item-thumb p-relative">
-                              <img src="assets/img/live/live-thumb-2.jpg" alt="">
-                              <div class="tp-event-details-teaser-video-popup">
-                                 <a class="popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494">
-                                    <img src="assets/img/event/event/youtube.png" alt="">
-                                 </a>
-                              </div>
+                              <img src="assets/gd/gb/sustain.jpg" alt="">
+                              
                            </div>
                            <div class="tp-live-7-item-content">
 

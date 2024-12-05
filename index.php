@@ -347,7 +347,7 @@
       <section class="mobile-view-hero pt-150 pb-120">
          <div class="container hero-video">
             <div class="row">
-               <video src="assets/video/karma.mp4" autoplay muted loop playsinline></video>
+               <video src="assets/video/video2.mp4" autoplay muted loop playsinline></video>
             </div>
          </div>
       </section>
@@ -418,7 +418,7 @@
                         }
                      </style>
                      <div class="tp-hero-bg" style="padding-top:20px">
-                        <video src="assets/video/karma.mp4" autoplay muted loop playsinline></video>
+                        <video src="assets/video/video2.mp4" autoplay muted loop playsinline></video>
                      </div>
                   </div>
                </div>
@@ -1147,7 +1147,7 @@
                <div class="col-lg-6">
                   <div class="tp-video-wrap d-flex">
                      <div class="tp-video-icon text-center">
-                        <a class="video-border-animation popup-video" href="/assets/video/karma.mp4">
+                        <a class="video-border-animation popup-video" href="/assets/video/video2.mp4">
                            <span>
                               <svg width="16" height="20" viewBox="0 0 16 20" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -1291,7 +1291,19 @@
          </div>
       </section>
       <!-- testimonial-area-end -->
+<style>
+   .tp-blog-thumb img{
+      max-height: 350px;
+      min-height: 350px;
+   }
+   @media (max-width:751px){
+      .tp-blog-thumb img{
+      max-height: auto;
+      min-height: auto;
+   }
+   }
 
+</style>
 
       <!-- blog-area-start -->
       <section class="blog-area grey-bg pt-110 pb-95">
@@ -1321,7 +1333,7 @@
                <div class="col-lg-6">
                   <div class="tp-blog-item text-center mb-40 wow fadeInLeft" data-wow-delay=".2s">
                      <div class="tp-blog-thumb fix">
-                        <a href="digitalzone.php"><img src="assets/img/blog/blog-thumb-1.jpg" alt="blog-thumb"></a>
+                        <a href="digitalzone.php"><img src="assets/gd/four/digital.jpg" alt="blog-thumb"></a>
                      </div>
                      <div class="tp-blog-content">
 
@@ -1351,7 +1363,7 @@
                   <div class="tp-blog-item text-center mb-40 wow fadeInRight" data-wow-delay=".2s">
                      <div class="tp-blog-thumb fix">
                         <a href="international.php">
-                           <img src="assets/img/blog/blog-thumb-2.jpg" alt="blog-thumb">
+                           <img src="assets/gd/four/international.jpg" alt="blog-thumb">
                         </a>
                      </div>
                      <div class="tp-blog-content">
@@ -1383,7 +1395,7 @@
                <div class="col-lg-6">
                   <div class="tp-blog-item text-center mb-40 wow fadeInLeft" data-wow-delay=".2s">
                      <div class="tp-blog-thumb fix">
-                        <a href="gb.php"><img src="assets/img/blog/blog-thumb-1.jpg" alt="blog-thumb"></a>
+                        <a href="gb.php"><img src="assets/gd/four/gb.jpg" alt="blog-thumb"></a>
                      </div>
                      <div class="tp-blog-content">
 
@@ -1413,7 +1425,7 @@
                   <div class="tp-blog-item text-center mb-40 wow fadeInRight" data-wow-delay=".2s">
                      <div class="tp-blog-thumb fix">
                         <a href="radio.php">
-                           <img src="assets/img/blog/blog-thumb-2.jpg" alt="blog-thumb">
+                           <img src="assets/gd/four/radio.jpg" alt="blog-thumb">
                         </a>
                      </div>
                      <div class="tp-blog-content">

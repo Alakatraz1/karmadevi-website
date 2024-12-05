@@ -43,6 +43,7 @@
 }
         </style>
 	<?php include('includes/navbarhome.php')?>
+    <?php include('includes/sidemenu.php') ?>
     
 
         <!-- Snowfall Background Animation -->
@@ -52,69 +53,210 @@
             <div id="stars3"></div>
         </section>
         <!-- End of Snowfall Background Animation -->
-
-        <div class="min-h-full flex-h-center" id="background_div">
+<style>
+    #grid-col{
+        display: flex;
+        
+    }
+    body{
+        overflow-x:hidden;
+    }
+    .distance{
+        padding-top: 100px;
+    }
+    .distance2{
+        padding-top: 0px;
+        margin-top:0px;
+    }
+    .display-image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+</style>
+        <div class="min-h-full flex-h-center row" id="background_div">
             <input type="hidden" value="https://bio.link" id="app-url">
                 <input type="hidden" value="null" id="is-featured">
                     <canvas id="bg-canvas" class="background-overlay"></canvas>
                 </input>
             </input>
 
-            <div class="mt-48 pt-120 page-full-wrap relative ">
+            <div class="mt-48 distance page-full-wrap relative ">
                 <input type="hidden" value="creator-page" id="page-type">
-                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/images/logo.png" alt="[Your photo alt]"/>
-                <h2 class="page-title page-text-color page-text-font mt-16 text-center">Your name</h2>
+                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/gd/partners/1.webp" alt="[Your photo alt]"/>
+                <h2 class="page-title page-text-color page-text-font mt-16 text-center">Karma Devi Smriti Mahavidyalaya</h2>
                        
                 <div class="mt-24">
+                    
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="[Link]" data-id="261652" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/linkedin.png" src="assets/images/linkedin.png" alt="LinkedIn @ [User]"/>
-                            <span class=" item-title text-center">LinkedIn @ [User]</span>
-                        </a>
-                    </div>        
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="[Link]" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/github.png" src="assets/images/github.png" alt="GitHub @ [User]"/>
-                            <span class=" item-title text-center">GitHub @ [User]</span>
-                        </a>
-                    </div>    
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="[Link]" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/credly.png" src="assets/images/credly.png" alt="Credly @ [User]"/>
-                            <span class=" item-title text-center">Credly @ [User]</span>
-                        </a>
-                    </div>                            
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="[Link]" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/hackerrank.png" src="assets/images/hackerrank.png" alt="HackerRank @ [User]"/>
-                            <span class=" item-title text-center">HackerRank @ [User]</span>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/karmadevi_pg_college/" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram "/>
+                            <span class=" item-title text-center">Instagram </span>
                         </a>
                     </div>
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="[Link]" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/replit.png" src="assets/images/replit.png" alt="Replit @ [User]"/>
-                            <span class=" item-title text-center">Replit @ [User]</span>
-                        </a>
-                    </div>
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="[Link]" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram @ [User]"/>
-                            <span class=" item-title text-center">Instagram @ [User]</span>
-                        </a>
-                    </div>
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="[Link]" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook @ [User]"/>
-                            <span class=" item-title text-center">Facebook @ [User]</span>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/ksmbasti/" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
+                            <span class=" item-title text-center">Facebook </span>
                         </a>
                     </div>                    
+                </div>                                                                                
+            </div>
+        
+
+            <div class="mt-48 distance page-full-wrap relative " >
+                <input type="hidden" value="creator-page" id="page-type">
+                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/gd/partners/2.webp" alt="[Your photo alt]"/>
+                <h2 class="page-title page-text-color page-text-font mt-16 text-center">DMS BTC College</h2>
+                       
+                <div class="mt-24">
+                    
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/karmadevi_ksmbtc_college?igsh=bDB1d2JtNGlubHdr" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram "/>
+                            <span class=" item-title text-center">Instagram </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/karmadevibtccollege/?__n=K" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
+                            <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>                    
+                </div>                                                                                
+            </div>
+
+            <div class="mt-48 distance2 page-full-wrap relative ">
+                <input type="hidden" value="creator-page" id="page-type">
+                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/gd/partners/3.webp" alt="[Your photo alt]"/>
+                <h2 class="page-title page-text-color page-text-font mt-16 text-center">P.S. School Of Nursing</h2>
+                       
+                <div class="mt-24">
+                    
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/psnursing_college_kdg?igsh=MTRmYjVmbHBvYTA5aQ==" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram "/>
+                            <span class=" item-title text-center">Instagram </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/psnursingcollege/?__n=K" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
+                            <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>                    
+                </div>                                                                                
+            </div>
+
+            <div class="mt-48 distance2 page-full-wrap relative ">
+                <input type="hidden" value="creator-page" id="page-type">
+                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/gd/partners/4.webp" alt="[Your photo alt]"/>
+                <h2 class="page-title page-text-color page-text-font mt-16 text-center">P.S. Pharmacy College</h2>
+                       
+                <div class="mt-24">
+                    
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/psspspharmacy_college_kdg?igsh=cjVnYjV6cGZybGlz" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram "/>
+                            <span class=" item-title text-center">Instagram </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/pspharmaccyollege/?__n=K" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
+                            <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>                    
+                </div>                                                                                
+            </div>
+
+            <div class="mt-48 distance2 page-full-wrap relative ">
+                <input type="hidden" value="creator-page" id="page-type">
+                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/gd/partners/6.webp" alt="[Your photo alt]"/>
+                <h2 class="page-title page-text-color page-text-font mt-16 text-center">Omni International School</h2>
+                       
+                <div class="mt-24">
+                    
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/omniinternationalschool/" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram "/>
+                            <span class=" item-title text-center">Instagram </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/omniintschool/" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
+                            <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>                    
+                </div>                                                                                
+            </div>
+
+            <div class="mt-48 distance2 page-full-wrap relative ">
+                <input type="hidden" value="creator-page" id="page-type">
+                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/gd/partners/8.jpg" alt="[Your photo alt]"/>
+                <h2 class="page-title page-text-color page-text-font mt-16 text-center">DMS BED College</h2>
+                       
+                <div class="mt-24">
+                    
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/dms_sikshan_prashikshan" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram "/>
+                            <span class=" item-title text-center">Instagram </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/profile.php?id=100067771504201&__n=K" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
+                            <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>                    
+                </div>                                                                                
+            </div>
+
+            <div class="mt-48 distance2 page-full-wrap relative ">
+                <input type="hidden" value="creator-page" id="page-type">
+                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/gd/partners/5.webp" alt="[Your photo alt]"/>
+                <h2 class="page-title page-text-color page-text-font mt-16 text-center">Radio 90.0 FM</h2>
+                       
+                <div class="mt-24">
+                    
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/radioomni90fm?igsh=emVpcXN3bno3ZHJm" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram "/>
+                            <span class=" item-title text-center">Instagram </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/profile.php?id=100081162592926&__n=K" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
+                            <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://play.google.com/store/apps/details?id=in.karmadevigroup.omniradio.twa" data-id="261685" data-type="page_item">
+                            <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/application.webp" alt="Facebook "/>
+                            <span class=" item-title text-center">Application </span>
+                        </a>
+                    </div>                   
                 </div>                                                                                
             </div>
         </div>

@@ -4,21 +4,27 @@
 
       background-size: 200% 200%;
       animation: gradientAnimation 3s ease infinite;
-      
+
    }
+
    @keyframes gradientAnimation {
-         0% {
-            background-position: 0% 50%;
-         }
-
-         50% {
-            background-position: 100% 50%;
-         }
-
-         100% {
-            background-position: 0% 50%;
-         }
+      0% {
+         background-position: 0% 50%;
       }
+
+      50% {
+         background-position: 100% 50%;
+      }
+
+      100% {
+         background-position: 0% 50%;
+      }
+   }
+
+   .tp-header-logo-1 img {
+      width: 125px;
+      height: 40px;
+   }
 </style>
 <header class="header-area tp-header-transparent p-relative">
    <div class="tp-header-top theme-bg">
@@ -29,12 +35,14 @@
 
                   <div class="tp-header-info-item">
                      <span>
-                        <a href="tel:6389086000"><i><img src="assets/img/icon/calling.svg" alt="phone-img"></i> +91-6389086000</a>
+                        <a href="tel:6389086000"><i><img src="assets/img/icon/calling.svg" alt="phone-img"></i>
+                           +91-6389086000</a>
                      </span>
                   </div>
                   <div class="tp-header-info-item">
                      <span>
-                        <a href="#"><i><img src="assets/img/icon/location.svg" alt="location"></i>Karma Devi Group, Sansarpur , Basti</a>
+                        <a href="#"><i><img src="assets/img/icon/location.svg" alt="location"></i>Karma Devi Group,
+                           Sansarpur , Basti</a>
                      </span>
                   </div>
                </div>
@@ -44,7 +52,8 @@
                   <div class="tp-header-info-item d-none d-md-block">
                      <span><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
                      <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
-                     <span><a href="https://www.linkedin.com/company/group-karmadevi/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></span>
+                     <span><a href="https://www.linkedin.com/company/group-karmadevi/" target="_blank"><i
+                              class="fa-brands fa-linkedin"></i></a></span>
                      <span><a href="#"><i class="fa-brands fa-youtube"></i></a></span>
                      <span><a href="https://wa.me/6389086000"><i class="fa-brands fa-whatsapp"></i></a></span>
                   </div>
@@ -179,17 +188,22 @@
                                     <div class="row tp-gx-50">
                                        <div class="col-xl-6">
                                           <div class="tp-megamenu-list">
-                                             <a href="https://omniinternationalschool.com" target="_blank">Omni International School</a>
-                                             <a href="https://pspharmacycollege.com" target="_blank">PS Pharmacy College</a>
+                                             <a href="https://omniinternationalschool.com" target="_blank">Omni
+                                                International School</a>
+                                             <a href="https://pspharmacycollege.com" target="_blank">PS Pharmacy
+                                                College</a>
                                              <a href="https://psn.ac.in" target="_blank">PS School of Nursing</a>
 
                                           </div>
                                        </div>
                                        <div class="col-xl-6">
                                           <div class="tp-megamenu-list">
-                                             <a href="https://dmssps.ac.in" target="_blank">DMS B.Ed. and BTC College</a>
-                                             <a href="https://www.facebook.com/p/Karma-Vocational-Academy-Basti-100064198055251/" target="_blank">Karma Vocational Academy</a>
-                                             <a href="https://ksm.ac.in" target="_blank">Karma Devi Smriti Mahavidyalaya</a>
+                                             <a href="https://dmssps.ac.in" target="_blank">DMS B.Ed. and BTC
+                                                College</a>
+                                             <a href="https://www.facebook.com/p/Karma-Vocational-Academy-Basti-100064198055251/"
+                                                target="_blank">Karma Vocational Academy</a>
+                                             <a href="https://ksm.ac.in" target="_blank">Karma Devi Smriti
+                                                Mahavidyalaya</a>
 
                                           </div>
                                        </div>
@@ -201,6 +215,11 @@
                         </li>
 
 
+                        
+                        <li class=" tp-static">
+                           <a class="tp-static" href="gallery.php">Gallery</a>
+
+                        </li>
                         <li class="has-dropdown">
                            <a>More</a>
                            <ul class="tp-submenu">
@@ -215,10 +234,6 @@
 
 
                            </ul>
-                        </li>
-                        <li class=" tp-static">
-                           <a class="tp-static" href="gallery.php">Gallery</a>
-
                         </li>
                         <li class=" tp-static">
                            <a class="tp-static" href="contact.php">Contact</a>
@@ -244,3 +259,34 @@
       </div>
    </div>
 </header>
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+      // Function to update phone and address based on screen size
+      function updateHeaderInfo() {
+         const phoneElement = document.querySelector(".tp-header-info-item a[href^='tel']");
+         const addressElement = document.querySelector(".tp-header-info-item a[href='#']");
+         
+         if (window.innerWidth <= 768) { // Phone view
+            if (phoneElement) {
+               phoneElement.innerHTML = '<i><img src="assets/img/icon/calling.svg" alt="phone-img"></i>6389086000';
+            }
+            if (addressElement) {
+               addressElement.innerHTML = '<i><img src="assets/img/icon/location.svg" alt="location"></i>K.D.G, Sansarpur, Basti';
+            }
+         } else { // Desktop view
+            if (phoneElement) {
+               phoneElement.innerHTML = '<i><img src="assets/img/icon/calling.svg" alt="phone-img"></i>+91-6389086000';
+            }
+            if (addressElement) {
+               addressElement.innerHTML = '<i><img src="assets/img/icon/location.svg" alt="location"></i>Karma Devi Group, Sansarpur, Basti';
+            }
+         }
+      }
+
+      // Call function initially
+      updateHeaderInfo();
+
+      // Recheck when the window is resized
+      window.addEventListener("resize", updateHeaderInfo);
+   });
+</script>

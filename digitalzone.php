@@ -568,11 +568,18 @@
                      border-radius: 8px;
 
                   }
+                  .tp-about-campus-thumb img{
+                     min-height: 500px;
+                  }
 
                   @media(max-width:700px) {
                      .tp-about-campus-content {
                         position: static;
                      }
+                     .tp-about-campus-thumb img{
+                     min-height: fit-content;
+                  }
+                     
 
                   }
                </style>
@@ -581,7 +588,7 @@
                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/four/digital.jpg" alt="">
                            </div>
 
                            <div class="tp-about-campus-content">
@@ -717,7 +724,7 @@
                      <div class="swiper-wrapper">
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-1.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/digital/strict.jpg" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Strict Identity Verification</a></h3>
@@ -737,7 +744,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-2.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/digital/security.avif" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">High Security & Surveillance</a></h3>
@@ -756,7 +763,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/img/program/program-thumb-3.jpg" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/digital/support.jpg" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Dedicated Support</a></h3>

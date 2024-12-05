@@ -471,7 +471,7 @@
                                  <p>
                                     Karma Devi Group continues to shape the future of education in Basti and beyond,
                                     fostering academic excellence, empowering students, and creating opportunities for
-                                    growth, health, and innovation in the region.   
+                                    growth, health, and innovation in the region.
                                  </p>
 
                               </div>
@@ -791,6 +791,13 @@
                </div>
             </div>
          </div>
+         <style>
+            .tp-about-year-thumb img{
+               width: 408px;
+               min-height: 300px;
+               max-height: 300px;
+            }
+         </style>
          <div class="tp-about-year-box">
             <div class="container">
                <div class="row align-items-center">
@@ -799,15 +806,15 @@
                         <div class="row align-items-center">
                            <div class="col-lg-6">
                               <div class="tp-about-year-thumb">
-                                 <img src="assets/img/our-mission/thumb-2.jpg" alt="">
+                                 <img src="assets/gd/about-institute/omni.jpg" alt="">
                               </div>
                            </div>
                            <div class="col-lg-6">
                               <div class="tp-about-year-content">
-                                 <h4 class="tp-about-year-content-title">15 New <br> Courses Added</h4>
-                                 <p>Etiam quis sapien in orci feugiat suscipit quis eget risus.
-                                    Morbi in dapibus magna, et congue tortor. Students loved the system, but the
-                                    teachers struggled to manage the paperwork and manual tracking.</p>
+                                 <h4 class="tp-about-year-content-title">Omni International School<br> was Founded</h4>
+                                 <p>In 2010, Omni International School was founded with the aim of providing
+                                    high-quality education. Over the years, we have evolved, expanding our offerings and
+                                    improving the student experience.</p>
                               </div>
                            </div>
                         </div>
@@ -816,15 +823,15 @@
                         <div class="row align-items-center">
                            <div class="col-lg-6">
                               <div class="tp-about-year-thumb">
-                                 <img src="assets/img/our-mission/thumb-3.jpg" alt="">
+                                 <img src="assets/gd/about-institute/pspharma.jpg" alt="">
                               </div>
                            </div>
                            <div class="col-lg-6">
                               <div class="tp-about-year-content">
-                                 <h4 class="tp-about-year-content-title">8 New <br> Courses Added</h4>
-                                 <p>Etiam quis sapien in orci feugiat suscipit quis eget risus.
-                                    Morbi in dapibus magna, et congue tortor. Students loved the system, but the
-                                    teachers struggled to manage the paperwork and manual tracking.</p>
+                                 <h4 class="tp-about-year-content-title">P.S. Pharmacy College<br> was Founded</h4>
+                                 <p>Founded to meet the growing demand for skilled professionals in the healthcare
+                                    sector, P.S. Pharmacy College offers advanced programs in pharmaceutical sciences,
+                                    training students to become experts in the field</p>
                               </div>
                            </div>
                         </div>
@@ -833,15 +840,49 @@
                         <div class="row align-items-center">
                            <div class="col-lg-6">
                               <div class="tp-about-year-thumb">
-                                 <img src="assets/img/our-mission/thumb-4.jpg" alt="">
+                                 <img src="assets/gd/history/anm.jpg" alt="">
                               </div>
                            </div>
                            <div class="col-lg-6">
                               <div class="tp-about-year-content">
-                                 <h4 class="tp-about-year-content-title">10 New <br> Courses Added</h4>
-                                 <p>Etiam quis sapien in orci feugiat suscipit quis eget risus.
-                                    Morbi in dapibus magna, et congue tortor. Students loved the system, but the
-                                    teachers struggled to manage the paperwork and manual tracking.</p>
+                                 <h4 class="tp-about-year-content-title"> ANM Course <br>Started</h4>
+                                 <p>The ANM (Auxiliary Nurse Midwife) course was introduced to provide aspiring
+                                    healthcare professionals with the skills necessary to support maternal and child
+                                    health, as well as general patient care.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tp-about-year-inner">
+                        <div class="row align-items-center">
+                           <div class="col-lg-6">
+                              <div class="tp-about-year-thumb">
+                                 <img src="assets/gd/history/gnm.jpg" alt="">
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="tp-about-year-content">
+                                 <h4 class="tp-about-year-content-title"> GNM Course <br>Started</h4>
+                                 <p>The GNM (General Nursing and Midwifery) course began to address the need for trained
+                                    nurses in hospitals and healthcare settings. This course equips students with the
+                                    expertise required to provide compassionate and skilled care to patients</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tp-about-year-inner">
+                        <div class="row align-items-center">
+                           <div class="col-lg-6">
+                              <div class="tp-about-year-thumb">
+                                 <img src="assets/gd/history/bsc.webp" alt="">
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="tp-about-year-content">
+                                 <h4 class="tp-about-year-content-title"> B.Sc. Nursing Course <br>Started</h4>
+                                 <p>The B.Sc. Nursing course was introduced to prepare students for a career in nursing,
+                                    offering in-depth knowledge and hands-on experience to ensure high-quality care in
+                                    healthcare facilities.</p>
                               </div>
                            </div>
                         </div>
@@ -1145,7 +1186,7 @@
             border-radius: 50%;
          }
       </style>
-      <div style="padding:5%">
+      <div style="display:none;padding:5%">
          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true">
             <div class="carousel-inner">
                <?php

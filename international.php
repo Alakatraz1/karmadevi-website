@@ -24,11 +24,12 @@
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
    <style>
-      p{
+      p {
          text-align: justify;
       }
-      .tp-about-campus-title{
-         font-size:50px;
+
+      .tp-about-campus-title {
+         font-size: 50px;
       }
    </style>
 </head>
@@ -51,7 +52,7 @@
    <!-- back to top end -->
 
    <!-- search area start -->
-   <?php include('includes/sidemenu.php') ?>
+
    <!-- search area end -->
 
 
@@ -73,26 +74,26 @@
 
       <!-- course details breadcrumb start -->
       <section class="tp-breadcrumb__area pt-90 pb-90 p-relative z-index-1 fix">
-      <div class="tp-breadcrumb__bg" data-background="assets/gd/breadcrumb/blog-stories-bg.png"></div>
-      <div class="container">
-         <div class="row align-items-center">
-            <div class="col-sm-12">
-               <div class="tp-breadcrumb__content">
-                  <div class="tp-breadcrumb__list inner-after">
-                     <span class="white"><a href="index.php"><svg width="17" height="14" viewBox="0 0 17 14"
-                              fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                 d="M8.07207 0C8.19331 0 8.31107 0.0404348 8.40664 0.114882L16.1539 6.14233L15.4847 6.98713L14.5385 6.25079V12.8994C14.538 13.1843 14.4243 13.4574 14.2225 13.6589C14.0206 13.8604 13.747 13.9738 13.4616 13.9743H2.69231C2.40688 13.9737 2.13329 13.8603 1.93146 13.6588C1.72962 13.4573 1.61597 13.1843 1.61539 12.8994V6.2459L0.669148 6.98235L0 6.1376L7.7375 0.114882C7.83308 0.0404348 7.95083 0 8.07207 0ZM8.07694 1.22084L2.69231 5.40777V12.8994H13.4616V5.41341L8.07694 1.22084Z"
-                                 fill="currentColor" />
-                           </svg></a></span>
-                     <span class="white">International Collaboration</span>
+         <div class="tp-breadcrumb__bg" data-background="assets/gd/breadcrumb/blog-stories-bg.png"></div>
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-sm-12">
+                  <div class="tp-breadcrumb__content">
+                     <div class="tp-breadcrumb__list inner-after">
+                        <span class="white"><a href="index.php"><svg width="17" height="14" viewBox="0 0 17 14"
+                                 fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M8.07207 0C8.19331 0 8.31107 0.0404348 8.40664 0.114882L16.1539 6.14233L15.4847 6.98713L14.5385 6.25079V12.8994C14.538 13.1843 14.4243 13.4574 14.2225 13.6589C14.0206 13.8604 13.747 13.9738 13.4616 13.9743H2.69231C2.40688 13.9737 2.13329 13.8603 1.93146 13.6588C1.72962 13.4573 1.61597 13.1843 1.61539 12.8994V6.2459L0.669148 6.98235L0 6.1376L7.7375 0.114882C7.83308 0.0404348 7.95083 0 8.07207 0ZM8.07694 1.22084L2.69231 5.40777V12.8994H13.4616V5.41341L8.07694 1.22084Z"
+                                    fill="currentColor" />
+                              </svg></a></span>
+                        <span class="white">International Collaboration</span>
+                     </div>
+                     <h3 class="tp-breadcrumb__title color">International Collaboration</h3>
                   </div>
-                  <h3 class="tp-breadcrumb__title color">International Collaboration</h3>
                </div>
             </div>
          </div>
-      </div>
-   </section>
+      </section>
       <!-- course details breadcrumb end -->
 
       <style>
@@ -270,7 +271,7 @@
                         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                            <div class="tp-about-campus-box p-relative">
                               <div class="tp-about-campus-thumb">
-                                 <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                                 <img src="assets/gd/international/mit.jpg" alt="">
                               </div>
 
                               <div class="tp-about-campus-content">
@@ -408,17 +409,83 @@
                      </div>
 
                   </div>
+                  <style>
+                     #community3 .test-content p {
+                        background-color: rgba(255, 255, 255, 0.7);
+                        /* Semi-transparent background */
+                        padding: 10px;
+                        /* Padding inside the text area */
+                        border-radius: 5px;
+                        /* Rounded corners */
+                        max-height: 400px;
+                        /* Limit height */
+                        overflow-y: auto;
+                        /* Enable vertical scrolling */
+                        line-height: 1.6;
+                        /* Adjust line height for readability */
+                     }
+                  </style>
+                  <div id="community3">
+                     <section class="ommunity3 tp-live-7-ptb pt-50 pb-130">
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-lg-12">
+                                 <div class="col-lg-12">
+                                    <div class="tp-live-7-item d-flex align-items-center">
+                                       <div class="tp-live-7-item-thumb p-relative">
+                                          <img src="assets/gd/international/bbc.jpg" alt="">
+
+                                       </div>
+                                       <div class="tp-live-7-item-content test-content">
+
+                                          <h3 class="tp-live-7-title tp-section-3-title color-9"> Ex BBC <br>
+                                             <span>Radio Director <img class="tp-underline-shape-6 wow bounceIn"
+                                                   data-wow-duration="1.5s" data-wow-delay=".4s"
+                                                   src="assets/img/unlerline/course-2-svg-1.svg" alt=""></span>
+                                          </h3>
+                                          <p
+                                             style="background-color:rgba(255,255,255,0.7);padding:10px;border-radius:5px">
+                                             Producer at BBC News and BBC World Brian Thaisen returns home to Denmark to
+                                             become the new chief producer at DR Nyheder. <br><br>
+
+                                             DR has thus hired a large capacity from the BBC, which will begin as soon
+                                             as it finishes with the British election in early May. And it is the
+                                             experience from the BBC, among other things, that the head of TV at DR
+                                             News, Naja Nielsen, looks forward to benefiting from.<br><br>
+
+                                             Must develop expression
+                                             "I am really looking forward to having Brian Thaisen join our team. In
+                                             recent years, Brian has worked in a central role at BBC News and BBC World,
+                                             and we feel lucky that he has chosen to spend the next few years developing
+                                             and running TV-Avisen's and DR Nyheder's visual expression on DR1 and DR2 .
+                                             The ambition for DR Nyheder is to be the best for news, with the best
+                                             journalism, the best hosts and correspondents and the best visual
+                                             communication. Brian will be leading our next push forward,” she says.<br><br>
+
+                                             Brian Thaisen has many years of production experience and has been
+                                             responsible for everything from the start-up of programs and TV channels to
+                                             the development of graphic packaging, branding and studio design.
+                                          </p>
+
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </section>
+                  </div>
                </div>
                <div class="row">
                   <div class="col-lg-6">
                      <div class="tp-blog-item text-center mb-40 wow fadeInLeft" data-wow-delay=".2s">
                         <div class="tp-blog-thumb fix">
-                           <a ><img src="assets/img/blog/blog-thumb-1.jpg" alt="blog-thumb"></a>
+                           <a><img src="assets/gd/international/communication.webp" alt="blog-thumb"></a>
                         </div>
                         <div class="tp-blog-content">
 
                            <h4 class="tp-blog-title">
-                              <a >Communication Skills <br> Workshops</a>
+                              <a>Communication Skills <br> Workshops</a>
                            </h4>
                            <p>
                               The seminars are designed to improve verbal and non-verbal communication,
@@ -429,11 +496,34 @@
                            </p>
 
                            <div class="tp-blog-btn">
-                              <a >
+                              <a>
                                  <span class="tp-blog-btn-bg blog-btn-bg"></span>
                                  <span class="tp-blog-btn-border blog-btn-border"></span>
                                  <span class="icon">
-                                 <svg version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve"><style>.st0{display:none}.st1{display:inline}.st2{fill:#0a0a0a}</style><g id="row1_1_"><g id="_x35__2_"><path class="st2" d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm23.2-76.8c-.9-.9-2.3-.9-3.2 0L55.2 73.2 41.4 59.5c-.9-.9-2.3-.9-3.2 0l-4.8 4.8c-.9.9-.9 2.3 0 3.2l15.3 15.3 3.3 3.3.8.8.7.7c.9.9 2.3.9 3.2 0L92 52.5c.9-.9.9-2.3 0-3.2l-4.8-4.8z" id="error_transparent_copy"/></g></g></svg>
+                                    <svg version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
+                                       viewBox="0 0 128 128" style="enable-background:new 0 0 128 128"
+                                       xml:space="preserve">
+                                       <style>
+                                          .st0 {
+                                             display: none
+                                          }
+
+                                          .st1 {
+                                             display: inline
+                                          }
+
+                                          .st2 {
+                                             fill: #0a0a0a
+                                          }
+                                       </style>
+                                       <g id="row1_1_">
+                                          <g id="_x35__2_">
+                                             <path class="st2"
+                                                d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm23.2-76.8c-.9-.9-2.3-.9-3.2 0L55.2 73.2 41.4 59.5c-.9-.9-2.3-.9-3.2 0l-4.8 4.8c-.9.9-.9 2.3 0 3.2l15.3 15.3 3.3 3.3.8.8.7.7c.9.9 2.3.9 3.2 0L92 52.5c.9-.9.9-2.3 0-3.2l-4.8-4.8z"
+                                                id="error_transparent_copy" />
+                                          </g>
+                                       </g>
+                                    </svg>
                                  </span>
                               </a>
                            </div>
@@ -444,7 +534,7 @@
                      <div class="tp-blog-item text-center mb-40 wow fadeInRight" data-wow-delay=".2s">
                         <div class="tp-blog-thumb fix">
                            <a>
-                              <img src="assets/img/blog/blog-thumb-2.jpg" alt="blog-thumb">
+                              <img src="assets/gd/international/practical.jpg" alt="blog-thumb">
                            </a>
                         </div>
                         <div class="tp-blog-content">
@@ -461,10 +551,33 @@
 
                            <div class="tp-blog-btn">
                               <a>
-                              <span class="tp-blog-btn-bg blog-btn-bg"></span>
+                                 <span class="tp-blog-btn-bg blog-btn-bg"></span>
                                  <span class="tp-blog-btn-border blog-btn-border"></span>
                                  <span class="icon">
-                                 <svg version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve"><style>.st0{display:none}.st1{display:inline}.st2{fill:#0a0a0a}</style><g id="row1_1_"><g id="_x35__2_"><path class="st2" d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm23.2-76.8c-.9-.9-2.3-.9-3.2 0L55.2 73.2 41.4 59.5c-.9-.9-2.3-.9-3.2 0l-4.8 4.8c-.9.9-.9 2.3 0 3.2l15.3 15.3 3.3 3.3.8.8.7.7c.9.9 2.3.9 3.2 0L92 52.5c.9-.9.9-2.3 0-3.2l-4.8-4.8z" id="error_transparent_copy"/></g></g></svg>
+                                    <svg version="1.1" id="icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0"
+                                       viewBox="0 0 128 128" style="enable-background:new 0 0 128 128"
+                                       xml:space="preserve">
+                                       <style>
+                                          .st0 {
+                                             display: none
+                                          }
+
+                                          .st1 {
+                                             display: inline
+                                          }
+
+                                          .st2 {
+                                             fill: #0a0a0a
+                                          }
+                                       </style>
+                                       <g id="row1_1_">
+                                          <g id="_x35__2_">
+                                             <path class="st2"
+                                                d="M64 .3C28.7.3 0 28.8 0 64s28.7 63.7 64 63.7 64-28.5 64-63.7S99.3.3 64 .3zm0 121C32.2 121.3 6.4 95.7 6.4 64 6.4 32.3 32.2 6.7 64 6.7s57.6 25.7 57.6 57.3c0 31.7-25.8 57.3-57.6 57.3zm23.2-76.8c-.9-.9-2.3-.9-3.2 0L55.2 73.2 41.4 59.5c-.9-.9-2.3-.9-3.2 0l-4.8 4.8c-.9.9-.9 2.3 0 3.2l15.3 15.3 3.3 3.3.8.8.7.7c.9.9 2.3.9 3.2 0L92 52.5c.9-.9.9-2.3 0-3.2l-4.8-4.8z"
+                                                id="error_transparent_copy" />
+                                          </g>
+                                       </g>
+                                    </svg>
                                  </span>
                               </a>
                            </div>
@@ -489,12 +602,8 @@
                      <div class="col-lg-12">
                         <div class="tp-live-7-item d-flex align-items-center">
                            <div class="tp-live-7-item-thumb p-relative">
-                              <img src="assets/img/live/live-thumb-2.jpg" alt="">
-                              <div class="tp-event-details-teaser-video-popup">
-                                 <a class="popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494">
-                                    <img src="assets/img/event/event/youtube.png" alt="">
-                                 </a>
-                              </div>
+                              <img src="assets/gd/international/impact.jpg" alt="" style="width:100%">
+
                            </div>
                            <div class="tp-live-7-item-content">
 
@@ -626,6 +735,13 @@
             background-size: 200% 200%;
             animation: gradientAnimation 3s ease infinite;
          }
+
+         #community3 .tp-live-7-ptb .container .row .col-lg-12 .tp-live-7-item {
+            background: linear-gradient(to right, #acb6e5, #86fde8);
+
+            background-size: 200% 200%;
+            animation: gradientAnimation 3s ease infinite;
+         }
       </style>
       <div id="community">
          <section class="tp-live-7-ptb pt-120 pb-130">
@@ -635,12 +751,8 @@
                      <div class="col-lg-12">
                         <div class="tp-live-7-item d-flex align-items-center">
                            <div class="tp-live-7-item-thumb p-relative">
-                              <img src="assets/img/live/live-thumb-2.jpg" alt="">
-                              <div class="tp-event-details-teaser-video-popup">
-                                 <a class="popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494">
-                                    <img src="assets/img/event/event/youtube.png" alt="">
-                                 </a>
-                              </div>
+                              <img src="assets/gd/international/future.jpg" alt="">
+
                            </div>
                            <div class="tp-live-7-item-content">
 
@@ -648,7 +760,8 @@
                                  <span> Vision <img class="tp-underline-shape-6 wow bounceIn" data-wow-duration="1.5s"
                                        data-wow-delay=".4s" src="assets/img/unlerline/course-2-svg-1.svg" alt=""></span>
                               </h3>
-                              <p style="background-color:rgba(255,255,255,0.7);padding:10px;border-radius:5px">The Karmadevi Group of Institutions continues to pursue partnerships that align with
+                              <p style="background-color:rgba(255,255,255,0.7);padding:10px;border-radius:5px">The
+                                 Karmadevi Group of Institutions continues to pursue partnerships that align with
                                  its vision of holistic education and inclusive learning. By engaging with
                                  world-renowned educators and experts, we aim to inspire our students and faculty to
                                  push boundaries and explore new academic and professional possibilities. These
@@ -678,12 +791,8 @@
                      <div class="col-lg-12">
                         <div class="tp-live-7-item d-flex align-items-center">
                            <div class="tp-live-7-item-thumb p-relative">
-                              <img src="assets/img/live/live-thumb-2.jpg" alt="">
-                              <div class="tp-event-details-teaser-video-popup">
-                                 <a class="popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494">
-                                    <img src="assets/img/event/event/youtube.png" alt="">
-                                 </a>
-                              </div>
+                              <img src="assets/gd/international/community.jpg" alt="">
+
                            </div>
                            <div class="tp-live-7-item-content">
 
@@ -691,7 +800,8 @@
                                  <span>Legacy <img class="tp-underline-shape-6 wow bounceIn" data-wow-duration="1.5s"
                                        data-wow-delay=".4s" src="assets/img/unlerline/course-2-svg-1.svg" alt=""></span>
                               </h3>
-                              <p style="background-color:rgba(255,255,255,0.7);padding:10px;border-radius:5px">Our roots in Basti inspire us to not only educate but also contribute positively to the
+                              <p style="background-color:rgba(255,255,255,0.7);padding:10px;border-radius:5px">Our roots
+                                 in Basti inspire us to not only educate but also contribute positively to the
                                  local community. Through various outreach programs, workshops, and collaborative
                                  events, we aim to strengthen the social fabric and drive progress in the region. The
                                  Karmadevi Group of Institutions stands as a testament to Mr. O.N. Singh’s enduring
@@ -700,7 +810,7 @@
                                  Join us on this journey of educational excellence and community upliftment. At
                                  Karmadevi Group of Institutions, we’re not just shaping futures; we’re building a
                                  stronger, more educated society for generations to come.
-                                 </p>
+                              </p>
 
                            </div>
                         </div>

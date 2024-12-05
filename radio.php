@@ -32,8 +32,9 @@
 
          padding-right: 30px;
       }
-      .tp-about-campus-title{
-         font-size:50px;
+
+      .tp-about-campus-title {
+         font-size: 50px;
       }
    </style>
 </head>
@@ -557,6 +558,12 @@
             padding-top: 20px;
             padding-bottom: 20px;
          }
+
+         .tp-our-mission-thumb {
+           
+            filter:none;
+            
+         }
       </style>
 
       <section class="tp-our-mission-area grey-bg pt-30 pb-30">
@@ -564,7 +571,7 @@
             <div class="row">
                <div class="col-lg-4">
                   <div class="tp-our-mission-thumb wow fadeInUp" data-wow-delay=".3s">
-                     <img src="assets/img/our-mission/thumb-1.png" alt="">
+                     <img src="assets/gd/partners/5.webp" alt="" style="width:100%">
                   </div>
                </div>
                <div class="col-lg-8">
@@ -734,7 +741,7 @@
                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/four/radio.jpg" alt="">
                            </div>
 
                            <div class="tp-about-campus-content">
