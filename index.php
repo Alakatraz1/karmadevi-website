@@ -25,16 +25,19 @@
    <link rel="stylesheet" href="assets/css/spacing.css">
    <link rel="stylesheet" href="assets/css/main.css">
    <style>
-      p{
+      p {
          text-align: justify !important;
       }
-      .tp-service-content p{
+
+      .tp-service-content p {
          text-align: center !important;
       }
-      .tp-counter-item p{
-         text-align:center !important;
+
+      .tp-counter-item p {
+         text-align: center !important;
       }
-      .tp-program-all p{
+
+      .tp-program-all p {
          text-align: center !important;
       }
    </style>
@@ -347,7 +350,7 @@
       <section class="mobile-view-hero pt-150 pb-120">
          <div class="container hero-video">
             <div class="row">
-               <video src="assets/video/video2.mp4" autoplay muted loop playsinline></video>
+               <video src="assets/video/video2.mp4" autoplay muted playsinline></video>
             </div>
          </div>
       </section>
@@ -410,7 +413,7 @@
                            }
 
                            .tp-hero-bg::before {
-                              
+
                               background: white;
 
                            }
@@ -453,7 +456,8 @@
                         </div>
                      </div>
                      <div class="tp-service-content">
-                        <p>We nurture a diverse community, fostering inclusivity and respect for different backgrounds, cultures, and nationalities.</p>
+                        <p>We nurture a diverse community, fostering inclusivity and respect for different backgrounds,
+                           cultures, and nationalities.</p>
                      </div>
                   </div>
                </div>
@@ -476,7 +480,8 @@
                         </div>
                      </div>
                      <div class="tp-service-content">
-                        <p>A legacy of excellence built on milestones achieved through dedication, innovation, and collaboration.</p>
+                        <p>A legacy of excellence built on milestones achieved through dedication, innovation, and
+                           collaboration.</p>
                      </div>
                   </div>
                </div>
@@ -500,7 +505,8 @@
                         </div>
                      </div>
                      <div class="tp-service-content">
-                        <p>A network of premier institutions providing world-class education and shaping future leaders.</p>
+                        <p>A network of premier institutions providing world-class education and shaping future leaders.
+                        </p>
                      </div>
                   </div>
                </div>
@@ -524,7 +530,8 @@
                         </div>
                      </div>
                      <div class="tp-service-content">
-                        <p>Connect with us to explore opportunities, seek guidance, or become a part of our thriving community.</p>
+                        <p>Connect with us to explore opportunities, seek guidance, or become a part of our thriving
+                           community.</p>
                      </div>
                   </div>
                </div>
@@ -678,7 +685,8 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="300" class="purecounter">300</span>+
+                           <span data-purecounter-duration="1" data-purecounter-end="300"
+                              class="purecounter">300</span>+
                         </h3>
                         <p>Faculty</p>
                      </div>
@@ -694,7 +702,8 @@
                   <div class="col-lg-3 col-md-6">
                      <div class="tp-counter-item item-end text-center">
                         <h3 class="tp-counter-count mb-10">
-                           <span data-purecounter-duration="1" data-purecounter-end="100" class="purecounter">100</span>+
+                           <span data-purecounter-duration="1" data-purecounter-end="100"
+                              class="purecounter">100</span>+
                         </h3>
                         <p>Research</p>
                      </div>
@@ -717,12 +726,35 @@
             cursor: pointer;
             font-weight: bold;
          }
+
+
+
+         #home-slider .tp-program-thumb {
+            position: relative;
+            width: 100%;
+            /* Full width of the container */
+            padding-top: 56.25%;
+            /* Maintains a 16:9 aspect ratio */
+            overflow: hidden;
+            background-color: #eaeaea;
+            /* Optional: placeholder background */
+         }
+
+         #home-slider .tp-program-thumb img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Ensures the image fills the container without distortion */
+         }
       </style>
 
 
 
       <!-- program-area-start -->
-      <section class="program-area mb-75">
+      <section class="program-area mb-75" id="home-slider">
          <div class="container">
             <div class="row justify-content-center wow fadeInUp " data-wow-delay=".3s">
                <div class="col-lg-8">
@@ -747,7 +779,7 @@
                      <div class="swiper-wrapper">
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/gd/gallery/image001.webp" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/home-slider/ethics.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Integrity and
@@ -767,7 +799,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/gd/gallery/image002.webp" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/home-slider/equal.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Inclusivity and
@@ -786,7 +818,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/gd/gallery/image003.webp" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/home-slider/education.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Excellence in
@@ -807,7 +839,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/gd/gallery/image004.webp" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/home-slider/community.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Commitment to
@@ -827,7 +859,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/gd/gallery/image005.webp" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/home-slider/development.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Holistic
@@ -849,7 +881,7 @@
 
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/gd/gallery/image006.webp" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/home-slider/innovation.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Innovation and
@@ -870,7 +902,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/gd/gallery/image007.webp" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/home-slider/centric.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Student-Centric
@@ -890,7 +922,7 @@
                         </div>
                         <div class="swiper-slide tp-program-item grey-bg mb-50">
                            <div class="tp-program-thumb fix">
-                              <a href="#"><img src="assets/gd/gallery/image008.webp" alt="program-thumb"></a>
+                              <a href="#"><img src="assets/gd/home-slider/team.webp" alt="program-thumb"></a>
                            </div>
                            <div class="tp-program-content">
                               <h3 class="tp-program-title"><a href="#">Collaboration and
@@ -1291,19 +1323,19 @@
          </div>
       </section>
       <!-- testimonial-area-end -->
-<style>
-   .tp-blog-thumb img{
-      max-height: 350px;
-      min-height: 350px;
-   }
-   @media (max-width:751px){
-      .tp-blog-thumb img{
-      max-height: auto;
-      min-height: auto;
-   }
-   }
+      <style>
+         .tp-blog-thumb img {
+            max-height: 350px;
+            min-height: 350px;
+         }
 
-</style>
+         @media (max-width:751px) {
+            .tp-blog-thumb img {
+               max-height: auto;
+               min-height: auto;
+            }
+         }
+      </style>
 
       <!-- blog-area-start -->
       <section class="blog-area grey-bg pt-110 pb-95">
@@ -1456,76 +1488,120 @@
          </div>
       </section>
       <!-- blog-area-end -->
-<style>
-   .tp-instagram-item a {
-    pointer-events: none;
-   }
-/* Default (Desktop) - Square images */
-.tp-instagram-item img {
-    width: 200px; /* Fixed width for square */
-    height: 200px; /* Fixed height, same as width */
-    object-fit: cover; /* Ensures the image fits the square without distortion */
-    border-radius: 5px; /* Optional: Adds rounded corners for a polished look */
-    display: block; /* Prevents inline-block spacing issues */
-    margin: auto; /* Centers the image inside the container */
-}
+      <style>
+         .tp-instagram-item a {}
 
-/* Mobile View - Adjust image size */
-@media (max-width: 767px) {
-    .tp-instagram-item img {
-        width: 150px; /* Smaller square size for mobile */
-        height: 150px; /* Fixed height, same as width */
-    }
-}
+         /* Default (Desktop) - Square images */
+         .tp-instagram-item img {
+            width: 200px;
+            /* Fixed width for square */
+            height: 200px;
+            /* Fixed height, same as width */
+            object-fit: cover;
+            /* Ensures the image fits the square without distortion */
+            border-radius: 5px;
+            /* Optional: Adds rounded corners for a polished look */
+            display: block;
+            /* Prevents inline-block spacing issues */
+            margin: auto;
+            /* Centers the image inside the container */
+         }
 
+         /* Mobile View - Adjust image size */
+         @media (max-width: 767px) {
+            .tp-instagram-item img {
+               width: 150px;
+               /* Smaller square size for mobile */
+               height: 150px;
+               /* Fixed height, same as width */
+            }
+         }
 
+         .instagram-area .swiper-wrapper {
+            background-color: white !important;
+         }
 
+         .instagram-area .swiper-slide {
+            background-color: white;
 
-</style>
+         }
+
+         .instagram-area .swiper-slide p {
+            padding: 5px;
+            text-align: center !important;
+            font-size: large;
+            font-weight: 600;
+            color: black;
+         }
+      </style>
 
       <!-- instagram-area-start -->
       <div class="instagram-area tp-instagram-wrapper grey-bg pb-20">
+         <h5 class="tp-section-subtitle" style="text-align:center">K.D.G PROJECTS</h5>
+         <h3 class="tp-section-2-title pb-50" style="text-align:center">Under The Roof
+            <span>
+               of Karma Devi Group.
+               <svg class="tp-underline-shape-4 wow bounceIn" data-wow-duration="1.5s" data-wow-delay=".4s" width="150"
+                  height="11" viewBox="0 0 150 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M144.302 10.313C80.9865 -3.18683 25.5413 4.73166 6.10412 10.2128C4.42012 10.6877 2.02954 10.5601 0.764608 9.92793C-0.500322 9.29573 -0.160598 8.39826 1.5234 7.92339C22.9523 1.88063 81.6684 -6.33434 148.069 7.82319C149.901 8.21367 150.542 9.08758 149.502 9.77512C148.462 10.4627 146.134 10.7035 144.302 10.313Z"
+                     fill="#161613" />
+               </svg>
+            </span>
+         </h3>
+
          <div class="swiper tp-instagram-active">
             <div class="swiper-wrapper wow fadeInUp" data-wow-delay=".2s">
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/gd/partners/1.webp">
+                  <a class="" href="https://ksm.ac.in" target="_blank">
                      <img src="assets/gd/partners/1.webp" alt=""></a>
-                  
+                  <p>K.D. Smriti Mahavidyalaya</p>
+
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/gd/partners/2.webp">
+                  <a class="" href="https://dmssps.ac.in" target="_blank">
                      <img src="assets/gd/partners/2.webp" alt=""></a>
-                  
+                  <p>DMS SPS College</p>
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/gd/partners/3.webp">
+                  <a class="" href="https://psn.ac.in" target="_blank">
                      <img src="assets/gd/partners/3.webp" alt=""></a>
-                  
+                  <p>P.S. School of Nursing</p>
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/gd/partners/4.webp">
+                  <a class="" href="https://pspharmacycollege.com" target="_blank">
                      <img src="assets/gd/partners/4.webp" alt=""></a>
-                  
+                  <p>PS SPS Pharmacy College</p>
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/gd/partners/5.webp">
+                  <a class="" href="https://omniradio.karmadevigroup.in" target="_blank">
                      <img src="assets/gd/partners/5.webp" alt=""></a>
-                  
+                  <p>Omni Radio</p>
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/gd/partners/6.webp">
+                  <a class="" href="https://omniinternationalschool.com" target="_blank">
                      <img src="assets/gd/partners/6.webp" alt=""></a>
-                  
+                  <p>Omni International School</p>
                </div>
                <div class="swiper-slide tp-instagram-item">
-                  <a class="popup-image" href="assets/gd/partners/7.jpg">
+                  <a class="" href="#">
                      <img src="assets/gd/partners/7.jpg" alt=""></a>
-                  
+                  <p>Karma Vocational Academy</p>
                </div>
             </div>
          </div>
       </div>
       <!-- instagram-area-end -->
+
+
+
+
+
+
+
+
+
+
 
 
       <!-- cta-area-start -->

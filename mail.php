@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Sanitize and retrieve form data
     $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
     $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_STRING);
     $subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_STRING);
     $messageContent = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
 
@@ -29,6 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <h2>New Forum Submission</h2>
         <p><strong>Name:</strong> $name</p>
         <p><strong>Email:</strong> $email</p>
+        <p><strong>Email:</strong> $phone</p>
         <p><strong>Subject:</strong> $subject</p>
         <p><strong>Message:</strong> $messageContent</p>
     ";

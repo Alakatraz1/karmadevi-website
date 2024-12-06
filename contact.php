@@ -571,7 +571,7 @@
                      <div class="tp-contact-from-box">
                         
                         <form id="contact-form" action="mail.php"
-                           method="post">
+                           method="POST">
                            <div class="tp-contact-input-form">
                               <div class="row">
                                  <div class="col-xl-6 col-lg-6">
@@ -581,6 +581,12 @@
                                     </div>
                                  </div>
                                  <div class="col-xl-6 col-lg-6">
+                                    <div class="tp-contact-input p-relative">
+                                       <label>Phone Number</label>
+                                       <input type="tel" name="phone">
+                                    </div>
+                                 </div>
+                                 <div class="col-xl-12 col-lg-12">
                                     <div class="tp-contact-input p-relative">
                                        <label>Email Address</label>
                                        <input type="email" name="email">

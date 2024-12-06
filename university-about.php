@@ -793,7 +793,7 @@
          </div>
          <style>
             .tp-about-year-thumb img{
-               width: 408px;
+               width: -webkit-fill-available;
                min-height: 300px;
                max-height: 300px;
             }
@@ -806,7 +806,7 @@
                         <div class="row align-items-center">
                            <div class="col-lg-6">
                               <div class="tp-about-year-thumb">
-                                 <img src="assets/gd/about-institute/omni.jpg" alt="">
+                                 <img src="assets/gd/about-institute/omni2.jpg" alt="">
                               </div>
                            </div>
                            <div class="col-lg-6">
@@ -1153,7 +1153,7 @@
                      <div class="tab-pane fade" id="Campus2" role="tabpanel" aria-labelledby="Campus-tab2">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/about-institute/vocational.jpg" alt="">
                            </div>
                            <div class="tp-about-campus-content d-flex justify-content-between">
                               <div class="tp-about-campus-location">

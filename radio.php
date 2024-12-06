@@ -770,7 +770,7 @@
                      <div class="tab-pane fade" id="home2" role="tabpanel" aria-labelledby="home2-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/four/radio.jpg" alt="">
                            </div>
 
                            <div class="tp-about-campus-content">
@@ -797,7 +797,7 @@
                      <div class="tab-pane fade" id="home3" role="tabpanel" aria-labelledby="home3-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/four/radio.jpg" alt="">
                            </div>
 
                            <div class="tp-about-campus-content">
@@ -870,7 +870,7 @@
                               <img src="/assets/gd/stores/google.jpg" alt="" style="width:90%;border-radius:60px">
                            </a>
                         </div>
-                        <div class="hovereffect">
+                        <div class="hovereffect" style="opacity:0">
                            <a href="#"><img src="/assets/gd/stores/apple.jpg" alt=""
                                  style="width:90%;border-radius:60px"></a>
                         </div>

@@ -367,7 +367,11 @@
    <!-- offcanvas area end -->
 
    <main class="tp-dashboard-body-bg">
-
+   <style>
+         .tp-profile-arae p{
+            text-align: justify;
+         }
+       </style>
       <!-- dashboard-banner-area-start -->
       <section class="tp-dashboard-banner-wrap pt-120">
          <div class="tp-dashboard-banner-shape">

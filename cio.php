@@ -400,7 +400,11 @@
       </section>
       <!-- dashboard-banner-area-end -->
 
-
+      <style>
+         .tp-profile-arae p{
+            text-align: justify;
+         }
+       </style>
       <!-- my profile area start -->
       <section class="tp-profile-arae pb-120">
          <div class="container">

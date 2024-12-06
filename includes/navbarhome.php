@@ -220,6 +220,7 @@
                            <a class="tp-static" href="gallery.php">Gallery</a>
 
                         </li>
+                        
                         <li class="has-dropdown">
                            <a>More</a>
                            <ul class="tp-submenu">

@@ -52,7 +52,7 @@
    <!-- back to top end -->
 
    <!-- search area start -->
-   <?php include('includes/sidemenu.php') ?>
+   
    <!-- search area end -->
 
 

@@ -618,7 +618,7 @@
                      <div class="tab-pane fade" id="home2" role="tabpanel" aria-labelledby="home2-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/four/digital.jpg" alt="">
                            </div>
 
                            <div class="tp-about-campus-content">
@@ -645,7 +645,7 @@
                      <div class="tab-pane fade" id="home3" role="tabpanel" aria-labelledby="home3-tab">
                         <div class="tp-about-campus-box p-relative">
                            <div class="tp-about-campus-thumb">
-                              <img src="assets/img/campus/campuses-thumb.jpg" alt="">
+                              <img src="assets/gd/four/digital.jpg" alt="">
                            </div>
 
                            <div class="tp-about-campus-content">

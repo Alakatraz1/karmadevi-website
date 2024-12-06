@@ -83,6 +83,18 @@
                     <canvas id="bg-canvas" class="background-overlay"></canvas>
                 </input>
             </input>
+            <style>
+                .center{
+                    display:grid;
+                    place-items: center;
+                    
+
+                }
+                .img-qr img{
+                    height:200px;
+                    width:200px;
+                }
+            </style>
 
             <div class="mt-48 distance page-full-wrap relative ">
                 <input type="hidden" value="creator-page" id="page-type">
@@ -98,11 +110,25 @@
                             <span class=" item-title text-center">Instagram </span>
                         </a>
                     </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.instagram.com/karmadevi_pg_college/" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/karma_insta.png" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
                         <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/ksmbasti/" data-id="261685" data-type="page_item">
                             <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
                             <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.facebook.com/ksmbasti/" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/karma_facebook.png" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
                         </a>
                     </div>                    
                 </div>                                                                                
@@ -123,11 +149,25 @@
                             <span class=" item-title text-center">Instagram </span>
                         </a>
                     </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.instagram.com/karmadevi_ksmbtc_college?igsh=bDB1d2JtNGlubHdr" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/btc_insta.png" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
                         <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/karmadevibtccollege/?__n=K" data-id="261685" data-type="page_item">
                             <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
                             <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.facebook.com/karmadevibtccollege/?__n=K" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/btc_facebook.png" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
                         </a>
                     </div>                    
                 </div>                                                                                
@@ -147,13 +187,27 @@
                             <span class=" item-title text-center">Instagram </span>
                         </a>
                     </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.instagram.com/psnursing_college_kdg?igsh=MTRmYjVmbHBvYTA5aQ==" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/nurs_insta.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
                         <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/psnursingcollege/?__n=K" data-id="261685" data-type="page_item">
                             <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
                             <span class=" item-title text-center">Facebook </span>
                         </a>
-                    </div>                    
+                    </div> 
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.facebook.com/psnursingcollege/?__n=K" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/nurs_facebook.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>                   
                 </div>                                                                                
             </div>
 
@@ -171,13 +225,27 @@
                             <span class=" item-title text-center">Instagram </span>
                         </a>
                     </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.instagram.com/psspspharmacy_college_kdg?igsh=cjVnYjV6cGZybGlz" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/phar_insta.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
                         <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/pspharmaccyollege/?__n=K" data-id="261685" data-type="page_item">
                             <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
                             <span class=" item-title text-center">Facebook </span>
                         </a>
-                    </div>                    
+                    </div>  
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.facebook.com/pspharmaccyollege/?__n=K" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/phar_facebook.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>                  
                 </div>                                                                                
             </div>
 
@@ -195,13 +263,27 @@
                             <span class=" item-title text-center">Instagram </span>
                         </a>
                     </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.facebook.com/omniinternationalschool/" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/omni_insta.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
                         <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/omniintschool/" data-id="261685" data-type="page_item">
                             <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
                             <span class=" item-title text-center">Facebook </span>
                         </a>
-                    </div>                    
+                    </div>    
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.instagram.com/omniintschool/" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/omni_facebook.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>                
                 </div>                                                                                
             </div>
 
@@ -219,13 +301,27 @@
                             <span class=" item-title text-center">Instagram </span>
                         </a>
                     </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.instagram.com/dms_sikshan_prashikshan" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/bed_insta.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
                         <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/profile.php?id=100067771504201&__n=K" data-id="261685" data-type="page_item">
                             <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
                             <span class=" item-title text-center">Facebook </span>
                         </a>
-                    </div>                    
+                    </div>   
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.facebook.com/profile.php?id=100067771504201&__n=K" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/bed_facebook.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>                 
                 </div>                                                                                
             </div>
 
@@ -243,11 +339,25 @@
                             <span class=" item-title text-center">Instagram </span>
                         </a>
                     </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.instagram.com/radioomni90fm?igsh=emVpcXN3bno3ZHJm" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/radio_insta.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>
                     <div class="page-item-wrap relative">
                         <div class="page-item flex-both-center absolute"></div>
                         <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.facebook.com/profile.php?id=100081162592926&__n=K" data-id="261685" data-type="page_item">
                             <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/facebook.png" alt="Facebook "/>
                             <span class=" item-title text-center">Facebook </span>
+                        </a>
+                    </div>
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://www.facebook.com/profile.php?id=100081162592926&__n=K" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/radio_facebook.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
                         </a>
                     </div>
                     <div class="page-item-wrap relative">
@@ -256,7 +366,14 @@
                             <img class="link-each-image" data-src="assets/images/facebook.png" src="assets/images/application.webp" alt="Facebook "/>
                             <span class=" item-title text-center">Application </span>
                         </a>
-                    </div>                   
+                    </div> 
+                    <div class="page-item-wrap relative img-qr">
+                        <div class="page-item flex-both-center absolute"></div>
+                        <a target="_blank"  class="page-item-each py-10 center" href="https://play.google.com/store/apps/details?id=in.karmadevigroup.omniradio.twa" data-id="261685" data-type="page_item">
+                            <img class="" data-src="assets/images/instagram.png" src="assets/gd/qr/radio_app.jpeg" alt="Instagram "/>
+                            <span class=" item-title text-center"> </span>
+                        </a>
+                    </div>                  
                 </div>                                                                                
             </div>
         </div>
