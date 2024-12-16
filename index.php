@@ -342,7 +342,7 @@
          @media (min-width: 767px) {
 
             .mobile-view-hero {
-               display: none;
+               
 
             }
          }
@@ -356,7 +356,7 @@
       </section>
 
       <!-- hero-area-start -->
-      <section class="tp-hero-area">
+      <section class="tp-hero-area" style="display:none">
          <div class="swiper tp-slider-active">
             <div class="swiper-wrapper">
                <div class="swiper-slide">
@@ -420,8 +420,8 @@
 
                         }
                      </style>
-                     <div class="tp-hero-bg" style="padding-top:20px">
-                        <video src="assets/video/video2.mp4" autoplay muted loop playsinline></video>
+                     <div class="tp-hero-bg" style="padding-top:20px;">
+                        <video src="#" autoplay muted loop playsinline></video>
                      </div>
                   </div>
                </div>
